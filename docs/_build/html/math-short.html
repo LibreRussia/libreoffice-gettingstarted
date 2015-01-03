@@ -1,0 +1,1111 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Редактор формул LibreOffice Math &mdash; Документация Math Short 0.1</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="Документация Math Short 0.1" href="index.html"/>
+        <link rel="prev" title="Русскоязычное сообщество LibreOffice" href="community.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+          <a href="index.html" class="fa fa-home"> Math Short</a>
+        
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="community.html">Русскоязычное сообщество LibreOffice</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="community.html#id1">Новости</a></li>
+<li class="toctree-l2"><a class="reference internal" href="community.html#id2">Поддержка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="community.html#id3">Обучение</a></li>
+<li class="toctree-l2"><a class="reference internal" href="community.html#id4">Независимые блоги</a></li>
+<li class="toctree-l2"><a class="reference internal" href="community.html#id5">Списки почтовой рассылки LibreOffice</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Редактор формул LibreOffice Math</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#math">Что такое Math?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Начало работы</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">Ввод формулы</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id12">Разметка формул</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id24">Изменение внешнего вида формул</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#math-writer">Формулы в текстовых документах Writer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id37">Дополнительная настройка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id47">Справка по командам Math</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Math Short</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Редактор формул LibreOffice Math</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="_sources/math-short.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="libreoffice-math">
+<h1>Редактор формул LibreOffice Math<a class="headerlink" href="#libreoffice-math" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="section" id="math">
+<h2>Что такое Math?<a class="headerlink" href="#math" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Math — модуль LibreOffice для написания математических и химических формул. Math обычно используется как редактор формул для текстовых документов, но также может быть использован в других типах документов (презентациях, таблицах, рисунках) или автономно. При использовании внутри Writer, формула обрабатывается как
+объект в текстовом документе.</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Math используется для записи формул в символическом виде, как в формуле <a href="#equation-primer1">(1)</a>, и не предназначен для расчетов. Для расчета числовых значений используйте модуль Calc (см. руководство по Calc).</p>
+</div>
+<div class="math" id="equation-primer1">
+<p><span class="eqno">(1)</span><img src="_images/math/75dff22af88f88e94940e39f4898efa132595637.png" alt="\frac{df(x)}{dx} = \ln(x) + \tan^{-1}(x^2)"/></p>
+</div><p>или</p>
+<div class="math">
+<p><img src="_images/math/48872b7cab8adfbca31de340c0c3a484f9eed8ff.png" alt="NH_3 + H_2 O ⇌ NH^+_4 + OH^-"/></p>
+</div></div>
+<hr class="docutils" />
+<div class="section" id="id1">
+<h2>Начало работы<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Math может быть запущен автономно или вызван из других модулей LibreOffice (Writer, Impress, Calc, Draw).</p>
+<div class="section" id="id2">
+<h3>Создание формулы в виде отдельного документа<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Чтобы создать формулу в виде отдельного документа, откройте модуль LibreOffice Math одним из следующих способов:</p>
+<ul class="simple">
+<li>В <em class="guilabel">Стартовом центре</em> выберите <em class="guilabel">Формула Math</em>;</li>
+<li>Если LibreOffice уже открыт, в строке меню выберите <em class="menuselection"><span class="accelerator">Ф</span>айл ‣ <span class="accelerator">С</span>оздать ‣ <span class="accelerator">Ф</span>ормулу</em>.</li>
+<li>На стандартной панели инструментов нажмите на треугольник справа от кнопки <em class="guilabel">Создать</em> и выберите <em class="guilabel">Формулу</em>.</li>
+</ul>
+<p>Откроется пустой документ Math (рисунок <a class="reference internal" href="#math-short-001"><em>Новый документ Math</em></a>).</p>
+<div class="figure align-center" id="math-short-001">
+<a class="reference internal image-reference" href="_images/math-short-001.png"><img alt="Новый документ Math" src="_images/math-short-001.png" style="width: 425.5px; height: 271.5px;" /></a>
+<p class="caption">Новый документ Math</p>
+</div>
+<p>В верхней части находится окно предварительного просмотра, в котором отображается вводимая формула. В нижней части находится редактор формул, в который вводится код разметки формулы. Слева находится прикрепляемая панель элементов.</p>
+</div>
+<div class="section" id="writer">
+<h3>Вставка формулы в документ Writer<a class="headerlink" href="#writer" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Чтобы вставить формулу в документ Writer, откройте документ и выберите пункт <em class="menuselection">Вставка ‣ Объект ‣ Формула</em>.</p>
+<p>Редактор формул откроется в нижней части окна Writer. А в документе появится  небольшой прямоугольник с серыми границами, в котором будет отображаться формула. В зависимости от настроек, может также появиться панель элементов.</p>
+<div class="figure align-center" id="math-short-002">
+<a class="reference internal image-reference" href="_images/math-short-002.png"><img alt="Вставка формулы в документ Writer" src="_images/math-short-002.png" style="width: 425.5px; height: 274.5px;" /></a>
+<p class="caption">Вставка формулы в документ Writer</p>
+</div>
+<p>После завершения ввода формулы, можно закрыть редактор клавишей <tt class="docutils literal"><span class="pre">Esc</span></tt> или щелкнув область за пределами формулы в основном документе. Двойной щелчок левой кнопкой мыши по формуле снова откроет редактор, позволяя изменить формулу.</p>
+<p>Формулы вставляются в качестве объектов <abbr title="Object Linking and Embedding">OLE</abbr>. В текстовых документах Writer, формула вставляется с привязкой <em>как символ</em> по умолчанию, чтобы не разрывать текст. Как и у любого другого OLE-объекта, <em>привязка</em> формулы может быть изменена, чтобы сделать её плавающей. В Calc, Impress и Draw документах формулы внедряются как плавающие OLE-объекты.</p>
+<p>Чтобы упростить процесс вставки формул, можно добавить кнопку <em class="guilabel">Формула</em> на стандартную панель инструментов или создать сочетание клавиш. <em>Смотрите Главу 14: Настройка LibreOffice.</em></p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id3">
+<h2>Ввод формулы<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Для написания формулы в Math используется специальный язык разметки, состоящий
+из команд, которые вводятся в редактор формул. Например, команда <tt class="docutils literal"><span class="pre">%beta</span></tt> вводит символ бета (β) греческого алфавита.</p>
+<p>Мнемонически, язык разметки формул напоминает чтение формулы по-английски. Например, команда <tt class="docutils literal"><span class="pre">a</span> <span class="pre">over</span> <span class="pre">b</span></tt> преобразуется в <img class="math" src="_images/math/a66b3d346e7d344b57f7845256b0196fae7146f6.png" alt="\frac{a}{b}"/>.</p>
+<p id="index-0">Вводить формулу можно тремя способами:</p>
+<ul class="simple">
+<li>Выбрать символ на Боковой панели или панели Элементы;</li>
+<li>Щелкнуть правой кнопкой мыши в редакторе формул и выбрать символ из контекстного меню;</li>
+<li>Ввести разметку в редакторе формул.</li>
+</ul>
+<p>Контекстное меню, Боковая панель или панель Элементы содержат все команды и символы разметки. Это обеспечивает удобный способ изучить разметку LibreOffice Math.</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<ul class="last simple">
+<li>Нажмите на любую область в теле документа за пределами формулы, чтобы выйти из редактора формул.</li>
+<li>Дважды щелкните по формуле, чтобы снова войти в редактор формул.</li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h3>Боковая(прикрепляемая) панель элементов<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Быстрым и простым способом ввода формул является использование боковой панели элементов. По умолчанию, панель отображается в левой части редактора формул при первом открытии Math. Боковая панель элементов может быть скрыта через <em class="menuselection"><span class="accelerator">В</span>ид ‣ При<span class="accelerator">к</span>репляемая панель элементов</em> или нажав один раз на «Ручку». Также, потянув за ручку, можно изменить размер боковой панели.</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Боковая панель элементов доступна в LibreOffice 4 и выше. В более ранних версиях используйте <a class="reference internal" href="#elements-window"><em>Панель Элементы</em></a>.</p>
+</div>
+<p>Боковая(прикрепляемая) панель элементов разделена на две части:</p>
+<ul class="simple">
+<li>Выпадающий список в верхней части панели показывает категории символов;</li>
+<li>Под списком категорий отображаются символы. Эти символы меняются в зависимости от выбранной категории.</li>
+</ul>
+<div class="figure align-center" id="math-short-003">
+<a class="reference internal image-reference" href="_images/math-short-003.png"><img alt="Выбор категорий символов на боковой панели" src="_images/math-short-003.png" style="width: 318.0px; height: 270.0px;" /></a>
+<p class="caption">Выбор категорий символов на боковой панели</p>
+</div>
+<div class="section" id="id5">
+<h4>Пример 1<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Для примера введем с помощью боковой панели элементов простую формулу: <img class="math" src="_images/math/2a1b70b4dfa04b961f33173108b3761b44767250.png" alt="5×4"/>.</p>
+<ol class="arabic simple">
+<li>Убедитесь, что в выпадающем списке выбрана категория  <em class="guilabel">Унарные/бинарные операторы</em> (см. рисунок <a class="reference internal" href="#math-short-003"><em>Выбор категорий символов на боковой панели</em></a>);</li>
+<li>Выберите символ <em class="guilabel">Умножение (крестик)</em> (см. рисунок <a class="reference internal" href="#math-short-004"><em>Выбор символа</em></a>);</li>
+</ol>
+<div class="figure align-center" id="math-short-004">
+<a class="reference internal image-reference" href="_images/math-short-004.png"><img alt="Выбор символа" src="_images/math-short-004.png" style="width: 147.0px; height: 227.4px;" /></a>
+<p class="caption">Выбор символа</p>
+</div>
+<p>После выбора символа умножения крестиком произойдет две вещи:</p>
+<ul class="simple">
+<li>В редакторе формул появится разметка:  <tt class="docutils literal"><span class="pre">&lt;?&gt;</span> <span class="pre">times</span> <span class="pre">&lt;?&gt;</span></tt>;</li>
+<li>В теле документа появится серый блок со следующим содержанием <tt class="docutils literal"><span class="pre">❑×❑</span></tt>.</li>
+</ul>
+<div class="figure align-center" id="math-short-005">
+<span id="index-1"></span><a class="reference internal image-reference" href="_images/math-short-005.png"><img alt="Результат выбора символа" src="_images/math-short-005.png" style="width: 425.5px; height: 274.5px;" /></a>
+<p class="caption">Результат выбора символа</p>
+</div>
+<p>Символы <tt class="docutils literal"><span class="pre">&lt;?&gt;</span></tt>, показанные на рисунке выше, нужно заменить собственными значениями, например, <tt class="docutils literal"><span class="pre">5×4</span></tt>.</p>
+<div class="figure align-center" id="math-short-006">
+<a class="reference internal image-reference" href="_images/math-short-006.png"><img alt="Результат ввода значений" src="_images/math-short-006.png" style="width: 425.5px; height: 274.5px;" /></a>
+<p class="caption">Результат ввода значений</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Совет</p>
+<p class="last">Для перемещения между символами <tt class="docutils literal"><span class="pre">&lt;?&gt;</span></tt> можно использовать клавиши <tt class="docutils literal"><span class="pre">F4</span></tt> и <tt class="docutils literal"><span class="pre">Shift+F4</span></tt> (перемещает в обратном направлении).</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Совет</p>
+<p class="last">Для автоматического обновления отображения формулы выберите <em class="menuselection">Вид ‣ Автообновление экрана</em>. Чтобы обновить формулу вручную, нажмите <tt class="docutils literal"><span class="pre">F9</span></tt>, или выберите <em class="menuselection">Вид ‣ Обновить</em>.</p>
+</div>
+</div>
+</div>
+<div class="section" id="elements-window">
+<span id="id6"></span><h3>Панель Элементы<a class="headerlink" href="#elements-window" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Аналогично боковой панели для быстрого набора формул можно использовать панель <em class="guilabel">Элементы</em>. Для её отображения перейдите в <em class="menuselection">Вид ‣ Элементы</em>.</p>
+<p>Панель <em class="guilabel">Элементы</em> также разделена на две области:</p>
+<ul class="simple">
+<li>В верхней области показаны категории символов. Нажмите на категорию, чтобы изменить список символов в нижней части;</li>
+<li>В нижней части отображается список символов, доступный в выбранной категории (см. рисунок <a class="reference internal" href="#math-short-007"><em>Панель Элементы</em></a>).</li>
+</ul>
+<div class="figure align-center" id="math-short-007">
+<a class="reference internal image-reference" href="_images/math-short-007.png"><img alt="Панель Элементы" src="_images/math-short-007.png" style="width: 207.0px; height: 198.0px;" /></a>
+<p class="caption">Панель Элементы</p>
+</div>
+</div>
+<div class="section" id="id7">
+<h3>Контекстное меню<a class="headerlink" href="#id7" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Другим способом быстрого ввода формул является использование контекстного меню, которое вызывается нажатием правой кнопки мыши в редакторе формул. Элементы контекстного меню соответствуют элементам окна <em class="guilabel">Элементы</em>, с некоторыми дополнительными командами.</p>
+<div class="figure align-center" id="math-short-008">
+<a class="reference internal image-reference" href="_images/math-short-008.png"><img alt="Контекстное меню" src="_images/math-short-008.png" style="width: 341.5px; height: 296.0px;" /></a>
+<p class="caption">Контекстное меню</p>
+</div>
+</div>
+<div class="section" id="id8">
+<h3>Разметка<a class="headerlink" href="#id8" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Вы можете вводить команды языка разметки непосредственно в редакторе формул. Например, вы можете непосредственно ввести <tt class="docutils literal"><span class="pre">5</span> <span class="pre">times</span> <span class="pre">4</span></tt>, чтобы получить  <tt class="docutils literal"><span class="pre">5</span> <span class="pre">×</span> <span class="pre">4</span></tt>. Если вы знаете язык разметки, это может быть самым быстрым способом ввода формул.</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Язык разметки формул напоминает чтение формулы по-английски.</p>
+</div>
+<p>Ниже приведен краткий список общих выражений и соответствующая им разметки.</p>
+<table border="1" class="docutils" id="index-2">
+<caption>Основные выражения</caption>
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Результат</th>
+<th class="head">Разметка</th>
+<th class="head">Результат</th>
+<th class="head">Разметка</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><img class="math" src="_images/math/73711b3bc2f0a03eff1af170a6fcb57ba77dd946.png" alt="a=b"/></td>
+<td>a = b</td>
+<td><img class="math" src="_images/math/a836b6c3e9d0bdcb0189c4a91cf7ca023debffdf.png" alt="\sqrt{a}"/></td>
+<td>sqrt {a}</td>
+</tr>
+<tr class="row-odd"><td><img class="math" src="_images/math/4c77d9b404c32574fb927ad22d79d05b4970f279.png" alt="a^2"/></td>
+<td>a^2</td>
+<td><img class="math" src="_images/math/dd9bd9c7a2af1ea2e50ac01a2b3ce3ea890cf65d.png" alt="a_n"/></td>
+<td>a_n</td>
+</tr>
+<tr class="row-even"><td><img class="math" src="_images/math/b2796a809afac8555f4262175f4acfad8f3dec24.png" alt="\int f(x) dx"/></td>
+<td>int f(x) dx</td>
+<td><img class="math" src="_images/math/ab0388e8b6a3632ce10209e740da13eaea99b260.png" alt="\sum a_n"/></td>
+<td>sum a_n</td>
+</tr>
+<tr class="row-odd"><td><img class="math" src="_images/math/17be117af4ad4d0f7851e1ae7fdfa0faf7373f24.png" alt="a\le b"/></td>
+<td>a &lt;= b</td>
+<td><img class="math" src="_images/math/91de26172b6cdc7da38314176fcc8023e48525e8.png" alt="\infty"/></td>
+<td>infinity</td>
+</tr>
+<tr class="row-even"><td><img class="math" src="_images/math/425be5d5d4c4f36f107af6a9f1c86e9ba29ec68a.png" alt="a \times b"/></td>
+<td>a times b</td>
+<td><img class="math" src="_images/math/4ae1c72d0725e36aeba0179fb9470fb960a00cee.png" alt="a \cdot b"/></td>
+<td>x cdot y</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id9">
+<h3>Символы греческого алфавита<a class="headerlink" href="#id9" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Символы греческого алфавита (α, β, γ, θ, и т.д.) широко используются в математических формулах.</p>
+<p>Эти символы не доступны в окне <em class="guilabel">Элементы</em>, на боковой панели или в контекстном меню. Для их набора используется простая разметка.  Символы греческого алфавита набираются так же, как и пишутся по-английски и предваряются знаком процента <tt class="docutils literal"><span class="pre">%</span></tt>, например: <tt class="docutils literal"><span class="pre">%alpha</span></tt> позволяет набрать символ <tt class="docutils literal"><span class="pre">α</span></tt>.</p>
+<ul class="simple" id="index-3">
+<li>Чтобы записать символ в нижнем регистре, введите имя символа в нижнем регистре;</li>
+<li>Для ввода прописной буквы, введите имя символа в верхнем регистре;</li>
+<li>Для записи курсивом, просто добавьте <tt class="docutils literal"><span class="pre">i</span></tt> между знаком <tt class="docutils literal"><span class="pre">%</span></tt> и названием буквы.</li>
+</ul>
+<p>Полная таблица символов греческого алфавита приведена в приложении Руководства по Math. В таблице ниже приведены несколько примеров.</p>
+<table border="1" class="docutils">
+<caption>Некоторые символы греческого алфавита</caption>
+<colgroup>
+<col width="23%" />
+<col width="23%" />
+<col width="23%" />
+<col width="31%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Нижний регистр</th>
+<th class="head">Верхний регистр</th>
+<th class="head">Курсив нижний регистр</th>
+<th class="head">Курсив верхний
+регистр</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>%alpha → α</td>
+<td>%ALPHA → <img class="math" src="_images/math/8ada065803b9820fccf12da08171ae49788ca42f.png" alt="\mathrm{A}"/></td>
+<td>%ialpha → <img class="math" src="_images/math/ad59b6e24a4a00ac621801f8d7513d68be654ab5.png" alt="\alpha"/></td>
+<td>%iALPHA → <img class="math" src="_images/math/0acafa529182e79b4f56165ec677554fba7fcf98.png" alt="A"/></td>
+</tr>
+<tr class="row-odd"><td>%beta → β</td>
+<td>%BETA → <img class="math" src="_images/math/d44374dd9eafb3d5fa3d8f4823740fe059160804.png" alt="\mathrm{B}"/></td>
+<td>%ibeta → <img class="math" src="_images/math/8ce03f78ed945f2ef3dac87c8799b55b393527e7.png" alt="\beta"/></td>
+<td>%iBETA → <img class="math" src="_images/math/83956e92fcc80dee17fce864543216939a3c9da7.png" alt="B"/></td>
+</tr>
+<tr class="row-even"><td>%gamma → γ</td>
+<td>%GAMMA → <img class="math" src="_images/math/85011adca50d3725af2e048eeb9ec7b02ccdd401.png" alt="\Gamma"/></td>
+<td>%igamma → <img class="math" src="_images/math/0ebb67342b546ca42a1c634b1ef03c893c4cdedb.png" alt="\gamma"/></td>
+<td>%iGAMMA → <img class="math" src="_images/math/3fbe402585d4ae3af24e7010e2884eac80df3277.png" alt="\mathit{\Gamma}"/></td>
+</tr>
+<tr class="row-odd"><td>%psi → ψ</td>
+<td>%PSI → <img class="math" src="_images/math/de6f6ec55da5bff04bdf591d5bb35136eb51b579.png" alt="\Psi"/></td>
+<td>%ipsi → <img class="math" src="_images/math/1a52481ac36eb889dcbbdcc0783ba2a755ba3547.png" alt="\psi"/></td>
+<td>%iPSI → <img class="math" src="_images/math/30820994495a5a295eb63d9a3e68d1e4aeec5afb.png" alt="\mathit{\Psi}"/></td>
+</tr>
+<tr class="row-even"><td>%phi → φ</td>
+<td>%PHI → <img class="math" src="_images/math/a3b52a61e132c13aa1267b45b1f8fb2fe7f06408.png" alt="\Phi"/></td>
+<td>%iphi → <img class="math" src="_images/math/10e009bdb83f96c5f47c58b34d5d4b12ef268d5b.png" alt="\phi"/></td>
+<td>%iPHI → <img class="math" src="_images/math/8ce41d4aabd9c113ff26c519c26fd42035c57eea.png" alt="\mathit{\Phi}"/></td>
+</tr>
+<tr class="row-odd"><td>%theta → θ</td>
+<td>%THETA → <img class="math" src="_images/math/fceda967c28efebb37a218d8ce3183e0a01158a4.png" alt="\Theta"/></td>
+<td>%itheta → <img class="math" src="_images/math/a9cfbeb8ebee1f365919e147a79e242dcb67ee5d.png" alt="\theta"/></td>
+<td>%iTHETA → <img class="math" src="_images/math/ff9643c585e758ef1e1a30bf1443a2d496a088c0.png" alt="\mathit{\Theta}"/></td>
+</tr>
+</tbody>
+</table>
+<p id="index-4">Другой способ вставить греческие символы, использовать окно <em class="guilabel">Каталог</em>. Выберите <em class="menuselection">Сервис ‣ Каталог</em> (рисунок <a class="reference internal" href="#math-short-009"><em>Каталог символов</em></a>). В выпадающем списке выберите <em class="guilabel">Набор</em> и нажмите на нужный символ в списке.</p>
+<div class="figure align-center" id="math-short-009">
+<a class="reference internal image-reference" href="_images/math-short-009.png"><img alt="Каталог символов" src="_images/math-short-009.png" style="width: 357.6px; height: 156.6px;" /></a>
+<p class="caption">Каталог символов</p>
+</div>
+<div class="section" id="id10">
+<h4>Пример 2:<a class="headerlink" href="#id10" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Введем выражение <tt class="docutils literal"><span class="pre">π</span> <span class="pre">≃</span> <span class="pre">3.14159</span></tt>. Для этого выполним следующие шаги:</p>
+<p><strong>Шаг 1:</strong> Выберите в <em class="guilabel">Каталоге</em> символ <tt class="docutils literal"><span class="pre">π</span></tt> или введите в редакторе формул разметку <tt class="docutils literal"><span class="pre">%pi</span></tt>.</p>
+<p><strong>Шаг 2:</strong> Откройте окно <em class="guilabel">Элементы</em> (<em class="menuselection">Вид ‣ Элементы</em>). Или воспользуйтесь боковой панелью.</p>
+<p><strong>Шаг 3:</strong> Перейдите в категорию <em class="guilabel">Отношения</em>  и выберите символ <tt class="docutils literal"><span class="pre">≃</span></tt> (Подобно или равно). Если навести курсор мыши на элемент, то появится всплывающая подсказка (как на рисунке <a class="reference internal" href="#math-short-010"><em>Окно Элементы</em></a>).</p>
+<div class="figure align-center" id="math-short-010">
+<a class="reference internal image-reference" href="_images/math-short-010.png"><img alt="Окно Элементы" src="_images/math-short-010.png" style="width: 100.2px; height: 230.4px;" /></a>
+<p class="caption">Окно <em class="guilabel">Элементы</em></p>
+</div>
+<p><strong>Шаг 4:</strong> Теперь в редакторе формул отображается разметка <tt class="docutils literal"><span class="pre">%pi</span> <span class="pre">&lt;?&gt;</span> <span class="pre">simeq</span> <span class="pre">&lt;?&gt;</span></tt></p>
+<p id="index-5"><strong>Шаг 5:</strong> Удалите первый символ <tt class="docutils literal"><span class="pre">&lt;?&gt;</span></tt>, а затем нажмите клавишу <em class="guilabel">F4</em>, чтобы перейти к следующему символу <tt class="docutils literal"><span class="pre">&lt;?&gt;</span></tt>.</p>
+<p><strong>Шаг 6:</strong> Замените символ <tt class="docutils literal"><span class="pre">&lt;?&gt;</span></tt> на <tt class="docutils literal"><span class="pre">3.14159</span></tt>. В итоге, мы получим разметку <tt class="docutils literal"><span class="pre">%pi</span> <span class="pre">simeq</span> <span class="pre">3.14159</span></tt>. Результат показан на рисунке ниже.</p>
+<div class="figure align-center" id="math-short-011">
+<a class="reference internal image-reference" href="_images/math-short-011.png"><img alt="Результат" src="_images/math-short-011.png" style="width: 256.8px; height: 163.8px;" /></a>
+<p class="caption">Результат</p>
+</div>
+</div>
+</div>
+<div class="section" id="id11">
+<h3>Изменение формулы<a class="headerlink" href="#id11" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Изменить формулу можно в любой момент. Для переключения в режим редактирования, дважды щелкните на формуле левой кнопкой мыши.</p>
+<p>Чтобы перейти к соответствующему месту в коде разметки, выполните одно из следующих действий:</p>
+<ul class="simple">
+<li>В редакторе формул установите курсор в нужное место;</li>
+<li>В области предварительного просмотра нажмите на элемент, который нужно и изменить. Курсор автоматически переместится к соответствующей точке в  редакторе формул;</li>
+</ul>
+<div class="figure align-center" id="math-short-012">
+<a class="reference internal image-reference" href="_images/math-short-012.png"><img alt="Изменение формулы" src="_images/math-short-012.png" style="width: 394.5px; height: 269.0px;" /></a>
+<p class="caption">Изменение формулы</p>
+</div>
+<p>Чтобы второй способ работал, на панели инструментов должна быть активирована кнопка <em class="guilabel">Курсор формулы</em> (смотрите рисунок <a class="reference internal" href="#math-short-012"><em>Изменение формулы</em></a>)</p>
+<p>Вы можете изменить формулу путем перезаписи выделенного текста или вставкой нового кода разметки в то место, где находится курсор.</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id12">
+<h2>Разметка формул<a class="headerlink" href="#id12" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Больше всего трудностей при использовании LibreOffice Math вызывает написание сложных формул. Этот раздел содержит несколько советов.</p>
+<div class="section" id="id13">
+<h3>Скобки<a class="headerlink" href="#id13" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Math ничего не знает о порядке операций. Необходимо использовать фигурные скобки для группировки, чтобы явно задать порядок следования выражений. Рассмотрим следующие примеры:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="23%" />
+<col width="23%" />
+<col width="23%" />
+<col width="31%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Разметка</th>
+<th class="head">Результат</th>
+<th class="head">Разметка</th>
+<th class="head">Результат</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>2 over x + 1</td>
+<td><img class="math" src="_images/math/90dec9a59c418372c52a8fa7afecf99e11539c57.png" alt="\frac{2}{x}+1"/></td>
+<td>2 over {x + 1}</td>
+<td><img class="math" src="_images/math/7c5359f21860f7141ba2608cfb30ce1799070085.png" alt="\frac{2}{x+1}"/></td>
+</tr>
+<tr class="row-odd"><td>– 1 over 2</td>
+<td><img class="math" src="_images/math/30b52aac9a74eed7763f514fa689e62b61886a61.png" alt="\frac{-1}{2}"/></td>
+<td>– {1 over 2}</td>
+<td><img class="math" src="_images/math/0c2aee198f75c827c59591dd2e301b6f04bfa14e.png" alt="{-}\frac{1}{2}"/></td>
+</tr>
+</tbody>
+</table>
+<p>В первом примере Math считает, что к знаменателю дроби принадлежит только символ <tt class="docutils literal"><span class="pre">х</span></tt>  и отображает формулу соответствующим образом. Если необходимо, чтобы в знаменателе находилось выражение <tt class="docutils literal"><span class="pre">x+1</span></tt>, нужно сгруппировать его используя фигурные скобки <tt class="docutils literal"><span class="pre">{x+1}</span></tt>.</p>
+<p>Во втором случае Math распознает знак минус как часть числителя. Чтобы знак минуса стоял перед всей дробью, необходимо сгруппировать дробь с помощью фигурных скобок, а знак минус поместит за их пределы.</p>
+<p>Фигурные скобки являются служебными символами и не отображаются в формуле. Для набора  фигурных скобок в формуле, необходимо использовать команды <tt class="docutils literal"><span class="pre">lbrace</span></tt> и <tt class="docutils literal"><span class="pre">rbrace</span></tt>. Сравните следующие примеры:</p>
+<table border="1" class="docutils" id="index-6">
+<colgroup>
+<col width="23%" />
+<col width="23%" />
+<col width="23%" />
+<col width="31%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Разметка</th>
+<th class="head">Результат</th>
+<th class="head">Разметка</th>
+<th class="head">Результат</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>x over {–x + 1}</td>
+<td><img class="math" src="_images/math/38df9b935d4cfe0114c93b43f5d0195a3fc22243.png" alt="\frac{2}{-x+1}"/></td>
+<td>x over lbrace –x + 1 rbrace</td>
+<td><img class="math" src="_images/math/738b9bd7d476a590dfb1c86de08efe97c75c17b1.png" alt="\frac{2}{\{x+1\}}"/></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id14">
+<h3>Масштабируемые скобки<a class="headerlink" href="#id14" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Для начала, рассмотрим пример с матрицами.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Разметка</th>
+<th class="head">Результат</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>matrix { a # b ## c # d }</td>
+<td><img class="math" src="_images/math/9617dca13b5f11cf466aa4e0ff6298a6187ad71e.png" alt="\begin{matrix} a &amp; b \\ c &amp; d \end{matrix}"/></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="first admonition-title">Совет</p>
+<p class="last">Строки в матрицах разделяются двумя символами решетки <tt class="docutils literal"><span class="pre">##</span></tt>, столбцы – одним <tt class="docutils literal"><span class="pre">#</span></tt>.</p>
+</div>
+<p>Первая проблема с матрицами, возникающая у людей, заключается в том, что скобки не масштабируются. Т.е. размер скобок не увеличивается в зависимости от содержания.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Разметка</th>
+<th class="head">Результат</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>( matrix { a # b ## c # d } )</td>
+<td><img alt="_images/math-short-013.png" class="first last" src="_images/math-short-013.png" />
+</td>
+</tr>
+</tbody>
+</table>
+<p>Math позволяет вводить масштабируемые скобки с помощью добавления команд <tt class="docutils literal"><span class="pre">left</span></tt> и <tt class="docutils literal"><span class="pre">right</span></tt> перед открывающейся и закрывающейся скобками соответственно.</p>
+<table border="1" class="docutils" id="index-7">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Разметка</th>
+<th class="head">Результат</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>left( matrix { a # b ## c # d } right)</td>
+<td><img class="math" src="_images/math/7c31e20270289c8aad3293c638c8d66404e4037e.png" alt="\begin{pmatrix} a &amp; b \\ c &amp; d \end{pmatrix}"/></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="first admonition-title">Совет</p>
+<p class="last">Используйте команды <tt class="docutils literal"><span class="pre">left</span> <span class="pre">[</span></tt> и <tt class="docutils literal"><span class="pre">right</span> <span class="pre">]</span></tt>, чтобы получить масштабируемые квадратные скобки. Список всех доступных скобок приведен в Руководстве по Math.</p>
+</div>
+<p id="index-8">Масштабируемые скобки могут быть использованы с любыми элементами такими, как дроби, квадратным корнем и т.д.</p>
+</div>
+<div class="section" id="id15">
+<h3>Одиночные и непарные скобки<a class="headerlink" href="#id15" title="Ссылка на этот заголовок">¶</a></h3>
+<p>При вводе формул Math ожидает, что каждая открывающаяся скобка будет иметь закрывающуюся. Если не ввести закрывающуюся скобку, то Math отобразит формулу с ошибкой. На месте отсутствующей закрывающейся скобки будет стоять перевернутый вопросительный знак, который исчезнет после того как будет введена соответствующая закрывающаяся скобка. В случае, когда нужно ввести непарную скобку, решение зависит от типа используемых скобок.</p>
+<p>Для не масштабируемых скобок достаточно использовать обратный слэш <cite>\</cite> перед скобкой, чтобы указать, что следующий за ним символ не следует рассматривать как скобки. Следовательно, Math не будет ждать ввода закрывающейся скобки.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Разметка</th>
+<th class="head">Результат</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>\(-5, 7\]</td>
+<td><img class="math" src="_images/math/3f9e8f8e61b84efad3b3fa09913492d65a77533e.png" alt="(-5, 7]"/></td>
+</tr>
+<tr class="row-odd"><td>\[-5, 7\)</td>
+<td><img class="math" src="_images/math/e02c69c5aa2ff5f2535968e924dbfa749ae08bde.png" alt="[-5, 7)"/></td>
+</tr>
+</tbody>
+</table>
+<p>Для масштабируемых скобок используются команды <tt class="docutils literal"><span class="pre">left</span></tt> (ставится перед открывающейся скобкой) и <tt class="docutils literal"><span class="pre">right</span></tt> (ставится перед закрывающейся скобкой). Чтобы ввести одиночную масштабируемую скобку, необходимо вместо закрывающейся скобки использовать команду <tt class="docutils literal"><span class="pre">right</span> <span class="pre">none</span></tt>.</p>
+<table border="1" class="docutils" id="index-9">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Разметка</th>
+<th class="head">Результат</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>abs x = left lbrace matrix { -x #, x &lt;0 ## x # , x&gt;= 0} right none</td>
+<td><img class="math" src="_images/math/2cfdf5e826497fd86c80c882b19b9c8b454d7448.png" alt="|x| = \biggl\{ {\begin{matrix} -x &amp; , x &lt; 0 \\ x &amp; , x \geq 0 \end{matrix}}"/></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="index-10">
+<span id="id16"></span><h3>Распознавание функций в Math<a class="headerlink" href="#index-10" title="Ссылка на этот заголовок">¶</a></h3>
+<p>По умолчанию Math выделяет переменные курсивным начертанием. При вводе функций Math, как правило, корректно распознает их (список распознаваемых функций доступен в Руководстве по Math). Если Math не смог распознать функцию, можно принудительно сообщить ему об этом. Для этого перед функцией необходимо ввести команду <tt class="docutils literal"><span class="pre">func</span></tt>.</p>
+<p id="index-11">Некоторые функции, используемые в Math, должны обязательно содержать число или переменную.  В случае их отсутствия, Math отображает перевернутый вопросительный знак <tt class="docutils literal"><span class="pre">¿</span></tt> на их месте. Удалить его можно путем корректировки формулы, введя переменную или число, или поставив пару пустых фигурных скобок <tt class="docutils literal"><span class="pre">{}</span></tt> в качестве заполнителя.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Совет</p>
+<p class="last">Для перемещения между ошибками используйте клавиши <tt class="docutils literal"><span class="pre">F3</span></tt> и <tt class="docutils literal"><span class="pre">Shift</span> <span class="pre">+</span> <span class="pre">F3</span></tt> (перемещает в обратном направлении).</p>
+</div>
+</div>
+<div class="section" id="id17">
+<h3>Многострочные уравнения<a class="headerlink" href="#id17" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Предположим, необходимо ввести выражение, занимающее больше одной строки: <img class="math" src="_images/math/5177a646832ffebcdd89d998960f23c5c40681f2.png" alt="\begin{matrix} x = 3 \\ y = 1 \end{matrix}"/>.</p>
+<p>Ваша первая реакция будет просто нажать клавишу <tt class="docutils literal"><span class="pre">Enter</span></tt>. Тем не менее, если вы нажмете клавишу <tt class="docutils literal"><span class="pre">Enter</span></tt>, хотя разметка и переходит на новую строку, окончательная формула этого не делает. Вы должны ввести команду перевода строки <tt class="docutils literal"><span class="pre">newline</span></tt> в явном виде, как показано в таблице ниже.</p>
+<table border="1" class="docutils" id="index-12">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Разметка</th>
+<th class="head">Результат</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><p class="first">x =3</p>
+<p class="last">y =1</p>
+</td>
+<td><img class="math" src="_images/math/739f3c4a9caaf3b194b7df86706f4528e35632a8.png" alt="x = 3 y =1"/></td>
+</tr>
+<tr class="row-odd"><td><p class="first">x = 3 newline</p>
+<p class="last">y = 1</p>
+</td>
+<td><img class="math" src="_images/math/5177a646832ffebcdd89d998960f23c5c40681f2.png" alt="\begin{matrix} x = 3 \\ y = 1 \end{matrix}"/></td>
+</tr>
+</tbody>
+</table>
+<p>Если первая строка уравнения заканчивается знаком равно <tt class="docutils literal"><span class="pre">=</span></tt>, то команда <tt class="docutils literal"><span class="pre">newline</span></tt> не срабатывает. Это происходит потому, что оператор <tt class="docutils literal"><span class="pre">=</span></tt> ожидает наличия символов с обеих сторон. Чтобы выполнить перенос, воспользуйтесь одним из следующих способов:</p>
+<ul class="simple">
+<li>Поставьте пустые кавычки <tt class="docutils literal"><span class="pre">&quot;&quot;</span></tt> между знаком равно и командой <tt class="docutils literal"><span class="pre">newline</span></tt>;</li>
+<li>Поставьте пустую пару скобок <tt class="docutils literal"><span class="pre">{}</span></tt> между знаком равно и командой <tt class="docutils literal"><span class="pre">newline</span></tt>;</li>
+<li>Поставьте символ обратной кавычки <tt class="docutils literal"><span class="pre">`</span></tt> или <tt class="docutils literal"><span class="pre">~</span></tt> (тильда) между знаком равно и командой <tt class="docutils literal"><span class="pre">newline</span></tt>.</li>
+</ul>
+</div>
+<div class="section" id="index-13">
+<span id="id18"></span><h3>Как поставить дополнительный пробел или табуляцию?<a class="headerlink" href="#index-13" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Math не чувствителен к пробелам, т.е. десять пробелов подряд будут отображены как один. Но иногда возникает необходимость ввода нескольких пробелов или табуляции.</p>
+<p>Команда <tt class="docutils literal"><span class="pre">phantom{&lt;любой</span> <span class="pre">заполнитель&gt;}</span></tt> создает отступ равный по длине заполнителю.</p>
+<p id="index-14">Другой способ сделать несколько пробелов подряд заключается в том, чтобы поместить пробелы в кавычки <tt class="docutils literal"><span class="pre">&quot;</span>&nbsp;&nbsp; <span class="pre">&quot;</span></tt>.</p>
+<p>Также в качестве пробела может использоваться символ обратной кавычки «`» (не путать с одинарной кавычкой) или символ тильды <tt class="docutils literal"><span class="pre">~</span></tt>. Символ тильды дает несколько больший пробел.</p>
+</div>
+<div class="section" id="index-15">
+<span id="id19"></span><h3>Как добавить пределы суммы/интеграла?<a class="headerlink" href="#index-15" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Для набора пределов используется команда <tt class="docutils literal"><span class="pre">from</span> <span class="pre">{&lt;?&gt;}</span> <span class="pre">to</span> <span class="pre">{&lt;?&gt;}</span></tt>. Данную команду можно использовать совместно с суммой <tt class="docutils literal"><span class="pre">sum</span></tt> или интегралом <tt class="docutils literal"><span class="pre">int</span></tt> (полный список смотрите в приложении Руководства по Math).</p>
+<table border="1" class="docutils" id="index-16">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Разметка</th>
+<th class="head">Результат</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>sum from k = 1 to n a_k</td>
+<td><img class="math" src="_images/math/503bb0beecb6e2d5c8c35d424a941d23bb6fe38b.png" alt="\sum\limits_{k=1}^n {a_k}"/></td>
+</tr>
+<tr class="row-odd"><td><p class="first">int from 0 to x f(t) dt</p>
+<p>или</p>
+<p class="last">int_0^x f(t) dt</p>
+</td>
+<td><p class="first"><img class="math" src="_images/math/709f6eb1465e00411d5909f87b1b63dceb7c8bb3.png" alt="\int\limits_{x}^{0} f(t) dt"/></p>
+<p>или</p>
+<p class="last"><img class="math" src="_images/math/86abc0a629c6bada0cef03a694f8e545f5761ab4.png" alt="\int_{x}^{0} f(t) dt"/></p>
+</td>
+</tr>
+<tr class="row-even"><td>int from Re f</td>
+<td><img class="math" src="_images/math/35b27bbe74098fb4f3e7ea67c3daf822b1dad97e.png" alt="\int\limits_{\Re} f"/></td>
+</tr>
+<tr class="row-odd"><td>sum to infinity 2^{-n}</td>
+<td><img class="math" src="_images/math/63db3b87d4dbdcc2378eecaaa81874146e3bb76f.png" alt="\sum\limits^{\infty} {2^{-1}}"/></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id20">
+<h3>Как мне ввести производную?<a class="headerlink" href="#id20" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Ввод производной заключается в использовании дроби (команда <tt class="docutils literal"><span class="pre">over</span></tt>) и буквы <tt class="docutils literal"><span class="pre">d</span></tt>. Для частных производных используется команда <tt class="docutils literal"><span class="pre">partial</span></tt>.</p>
+<table border="1" class="docutils" id="index-17">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Разметка</th>
+<th class="head">Результат</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>{df} over {dx}</td>
+<td><img class="math" src="_images/math/cc6ea92baba64df3e19475de3966b2faf643cf08.png" alt="\frac{df}{dx}"/></td>
+</tr>
+<tr class="row-odd"><td>{partial f} over {partial y}</td>
+<td><img class="math" src="_images/math/e446fc4a7ebd87feaace35eb95c73dd0adb7a3f1.png" alt="\frac{\partial{f}}{\partial{y}}"/></td>
+</tr>
+<tr class="row-even"><td>{partial^2 f} over {partial t^2}</td>
+<td><img class="math" src="_images/math/96e796ed689034b9617f5142c45a45c5d4284bf2.png" alt="\frac{\partial^2{f}}{\partial{t^2}}"/></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Обратите внимание, необходимо использовать фигурные скобки, чтобы ввести производную.</p>
+</div>
+</div>
+<div class="section" id="id21">
+<h3>Служебные символы<a class="headerlink" href="#id21" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Служебные символы – символы используемые в командах разметки. К таким символам относятся:  символ процента <tt class="docutils literal"><span class="pre">%</span></tt>, фигурные скобки <tt class="docutils literal"><span class="pre">{}</span></tt>, а также символы <tt class="docutils literal"><span class="pre">|,</span> <span class="pre">_,</span> <span class="pre">&amp;,</span> <span class="pre">^,</span> <span class="pre">''</span></tt>. Поэтому для ввода выражений <tt class="docutils literal"><span class="pre">2%</span> <span class="pre">=</span> <span class="pre">0.02</span></tt> или <tt class="docutils literal"><span class="pre">1&quot;</span> <span class="pre">=</span> <span class="pre">2.56cm</span></tt> необходимо воспользоваться одним из двух способов:</p>
+<ul class="simple">
+<li>Использовать двойные кавычки, чтобы ввести символ как простой текст <tt class="docutils literal"><span class="pre">2&quot;%&quot;=</span> <span class="pre">0.02</span></tt>. Этот способ не работает для символа двойных кавычек;</li>
+<li>Добавить необходимый символ в Каталог, подробнее смотрите раздел <a class="reference internal" href="#customizing-the-catalog"><em>Настройка Каталога</em></a>;</li>
+</ul>
+<p>В некоторых случаях можно использовать специальные команды, например:</p>
+<ul class="simple">
+<li>Команды <tt class="docutils literal"><span class="pre">lbrace</span></tt> и <tt class="docutils literal"><span class="pre">rbrace</span></tt> позволяют ввести фигурные скобки <tt class="docutils literal"><span class="pre">{}</span></tt>.</li>
+</ul>
+</div>
+<div class="section" id="index-18">
+<span id="id22"></span><h3>Текст в формулах<a class="headerlink" href="#index-18" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Чтобы включить текст в формулы, заключите его в прямые двойные кавычки: <tt class="docutils literal"><span class="pre">abs</span> <span class="pre">x</span> <span class="pre">=</span> <span class="pre">left</span> <span class="pre">lbrace</span> <span class="pre">matrix</span> <span class="pre">{x</span> <span class="pre">#</span> <span class="pre">&quot;for</span> <span class="pre">&quot;</span> <span class="pre">x</span> <span class="pre">&gt;=</span> <span class="pre">0</span> <span class="pre">##</span> <span class="pre">-x</span> <span class="pre">#</span> <span class="pre">&quot;for</span> <span class="pre">&quot;</span> <span class="pre">x</span> <span class="pre">&lt;</span> <span class="pre">0}</span> <span class="pre">right</span> <span class="pre">none</span></tt></p>
+<div class="math">
+<p><img src="_images/math/28df7d186fc33d209648eb21ec1cdf274503da5c.png" alt="|x| = \biggl\{ {\begin{matrix} x \text{ for } x \geq 0 \\ -x \text{ for } x &lt; 0 \end{matrix}}"/></p>
+</div><p>Все символы, кроме двойных англоязычных кавычек <tt class="docutils literal"><span class="pre">&quot;</span></tt>, являются допустимыми в тексте. Для ввода других типов кавычек воспользуйтесь Каталогом или наберите текст в текстовом редакторе и вставьте в редактор формул через буфер обмена.</p>
+<div class="figure align-center" id="math-short-014a">
+<a class="reference internal image-reference" href="_images/math-short-014a.png"><img alt="Вставка текста в формулы" src="_images/math-short-014a.png" style="width: 480.0px; height: 269.0px;" /></a>
+<p class="caption">Вставка текста в формулы</p>
+</div>
+<p>Текст отображается шрифтом, установленном в категории <em class="guilabel">Текст</em> диалогового окна <em class="guilabel">Шрифты</em>, подробнее смотрите в разделе <a class="reference internal" href="#changing-the-font"><em>Изменение гарнитуры шрифта</em></a>.</p>
+<p>По умолчанию текст выравнивается по левому краю. Чтобы изменить выравнивание, используйте команды <tt class="docutils literal"><span class="pre">alignc</span></tt> (по центру) и <tt class="docutils literal"><span class="pre">alignr</span></tt> (по правому краю). Команды, не интерпретируются в тексте. Используйте кавычки, чтобы разбить текст, если вы хотите использовать специальные команды форматирования.</p>
+</div>
+<div class="section" id="align-equals-sign">
+<span id="index-19"></span><span id="id23"></span><h3>Как выровнять строки уравнения по знаку равно?<a class="headerlink" href="#align-equals-sign" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Обычно Math выравнивает каждую строку формулы по центру. Чтобы выровнять все строки по знаку равенства можно использовать матрицу, например:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Разметка</th>
+<th class="head">Результат</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>matrix {
+alignr x+y # {}={} # alignl 2 ##
+alignr x # {}={} # alignl 2-y
+}</td>
+<td><img class="math" src="_images/math/ed56437d7fed3bd1e93c40ec9c69f0eaab10c012.png" alt="\begin{array}{r l} x + y &amp; = {\ \ } 2 \\  x &amp; = {\ \ } 2 - y \end{array}"/></td>
+</tr>
+</tbody>
+</table>
+<p>Пустые скобки вокруг знака «=»(равно) необходимы потому, что он является бинарным оператором, т.е. требует наличия выражений с каждой стороны.</p>
+<p>Пространство вокруг «=»(равно) может быть уменьшено путем изменения расстояния между столбцами матрицы:</p>
+<ul class="simple">
+<li>Выберите <em class="menuselection">Формат ‣ Интервал</em>;</li>
+<li>Нажмите <em class="guilabel">Категория</em> и выберите раздел <em class="guilabel">Матрицы</em> из выпадающего списка;</li>
+<li>Введите расстояние между столбцами 0% .</li>
+</ul>
+<div class="figure align-center" id="math-short-015">
+<a class="reference internal image-reference" href="_images/math-short-015.png"><img alt="Изменение расстояния между столбцами матрицы" src="_images/math-short-015.png" style="width: 295.2px; height: 138.0px;" /></a>
+<p class="caption">Изменение расстояния между столбцами матрицы</p>
+</div>
+<p>Можно обойтись без использования матрицы и воспользоваться командой разметки <tt class="docutils literal"><span class="pre">phantom</span></tt>, как показано ниже:</p>
+<table border="1" class="docutils" id="index-20">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Разметка</th>
+<th class="head">Результат</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><p class="first"><tt class="docutils literal"><span class="pre">&quot;&quot;3(x+4)-2(x-1)=3x+12-(2x-2)</span> <span class="pre">newline</span></tt></p>
+<p><tt class="docutils literal"><span class="pre">&quot;&quot;phantom</span> <span class="pre">{3(x+4)-2(x-1)}=3x+12-2x+2</span> <span class="pre">newline</span></tt></p>
+<p class="last"><tt class="docutils literal"><span class="pre">&quot;&quot;phantom</span> <span class="pre">{3(x+4)-2(x-1)}=x+14</span></tt></p>
+</td>
+<td><img class="math" src="_images/math/28d6197c13f6ba9c2316a43d92fa72fef8cd69b2.png" alt="\begin{array}{r l} 3(x+4)-2(x-1) &amp; = {\ \ } 3x+12-(2x-2) \\   &amp; = {\ \ } 3x+12-2x+2 \\  &amp; = {\ \ } x+14 \end{array}"/></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id24">
+<h2>Изменение внешнего вида формул<a class="headerlink" href="#id24" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="changing-the-font-size">
+<span id="id25"></span><h3>Изменение размера (кегля) шрифта<a class="headerlink" href="#changing-the-font-size" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Все элементы формулы пропорционально масштабируются относительно
+основного размера. Для изменения основного размера укажите нужный размер
+в диалоге <em class="menuselection">Формат ‣ Кегли</em>.</p>
+<div class="figure align-center" id="math-short-016">
+<a class="reference internal image-reference" href="_images/math-short-016.png"><img alt="Изменение размера (кегля) шрифта" src="_images/math-short-016.png" style="width: 196.8px; height: 159.6px;" /></a>
+<p class="caption">Изменение размера (кегля) шрифта</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Совет</p>
+<p class="last">Данные настройки будут применены только к текущей формуле. Чтобы внесенные изменения были применены как настройки по умолчанию LibreOffice Math, необходимо сначала задать размер (например, 11 пт), а затем нажать кнопку <em class="guilabel">По умолчанию</em>.</p>
+</div>
+<p>Также можно изменить размер только отдельных символов формулы. Для этого используется комада разметки <tt class="docutils literal"><span class="pre">size</span></tt>, например, <tt class="docutils literal"><span class="pre">b</span> <span class="pre">size</span> <span class="pre">5{a}</span></tt>. В качестве атрибутов команда <tt class="docutils literal"><span class="pre">size</span></tt> может принимать абсолютные числовые значения или относительные (относительно базового размера по умолчанию). Например, <tt class="docutils literal"><span class="pre">6</span></tt>, <tt class="docutils literal"><span class="pre">-3</span></tt>, <tt class="docutils literal"><span class="pre">/2</span></tt>, или <tt class="docutils literal"><span class="pre">*2</span></tt>.</p>
+</div>
+<div class="section" id="changing-the-font">
+<span id="index-21"></span><span id="id26"></span><h3>Изменение гарнитуры шрифта<a class="headerlink" href="#changing-the-font" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Диалоговое окно <em class="menuselection">Формат ‣ Шрифты</em> позволяет настроить гарнитуру и начертание шрифта. Для всех элементов отображается шрифт, заданный по умолчанию.</p>
+<div class="figure align-center" id="math-short-017">
+<a class="reference internal image-reference" href="_images/math-short-017.png"><img alt="Изменение гарнитуры шрифта" src="_images/math-short-017.png" style="width: 276.0px; height: 191.4px;" /></a>
+<p class="caption">Изменение гарнитуры шрифта</p>
+</div>
+<p>Чтобы изменить шрифт, нажмите кнопку <em class="guilabel">Изменить</em> и выберите тип элементов. Отобразится новое диалоговое окно. Выберите необходимый шрифт и установите требуемые атрибуты, а затем нажмите кнопку <em class="guilabel">Да</em>.
+Изменение настроек будет применено только для текущего документа. Чтобы
+сделать настройки по умолчанию для всех документов, нажмите кнопку <em class="guilabel">По умолчанию</em>.</p>
+<div class="figure align-center" id="math-short-018">
+<a class="reference internal image-reference" href="_images/math-short-018.png"><img alt="Изменение гарнитуры шрифта" src="_images/math-short-018.png" style="width: 267.0px; height: 206.4px;" /></a>
+<p class="caption">Изменение гарнитуры шрифта</p>
+</div>
+<p>Можно изменить начертание отдельных элементов формулы с помощью команд <tt class="docutils literal"><span class="pre">italic</span></tt> (курсивное начертание), <tt class="docutils literal"><span class="pre">bold</span></tt> (полужирное начертание), <tt class="docutils literal"><span class="pre">nitalic</span></tt> (убрать курсивное начертани), <tt class="docutils literal"><span class="pre">nbold</span></tt> (убрать полужирное начертание). Для примера смотрите рисунок <a class="reference internal" href="#math-short-014a"><em>Вставка текста в формулы</em></a>.</p>
+</div>
+<div class="section" id="index-22">
+<span id="id27"></span><h3>Изменение цвета<a class="headerlink" href="#index-22" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Для задания цвета элемента в формуле используется команда <tt class="docutils literal"><span class="pre">color</span></tt>, которая
+может принимать 8 параметров: <tt class="docutils literal"><span class="pre">white</span></tt>, <tt class="docutils literal"><span class="pre">black</span></tt>, <tt class="docutils literal"><span class="pre">cyan</span></tt>, <tt class="docutils literal"><span class="pre">magenta</span></tt>, <tt class="docutils literal"><span class="pre">red</span></tt>, <tt class="docutils literal"><span class="pre">blue</span></tt>, <tt class="docutils literal"><span class="pre">green</span></tt>, <tt class="docutils literal"><span class="pre">yellow</span></tt>. Другими словами можно задать всего 8 цветов: белый, черный, голубой, пурпурный, красный, синий, зеленый, желтый. Например, команда, <tt class="docutils literal"><span class="pre">color</span> <span class="pre">green</span> <span class="pre">A</span> <span class="pre">color</span> <span class="pre">red</span> <span class="pre">B</span> <span class="pre">color</span> <span class="pre">magenta</span> <span class="pre">C</span> <span class="pre">color</span> <span class="pre">cyan</span> <span class="pre">D</span></tt> дает результат: <img alt="color-font" src="_images/math-short-019.png" />.</p>
+<span class="target" id="index-23"></span><p>Также можно использовать фигурные скобки для группировки отдельных элементов формулы. Например, <tt class="docutils literal"><span class="pre">color</span> <span class="pre">green</span> <span class="pre">{A</span> <span class="pre">B</span> <span class="pre">C}</span> <span class="pre">color</span> <span class="pre">cyan</span> <span class="pre">D</span></tt> дает следующий результат:<img alt="color-font2" src="_images/math-short-020.png" />.</p>
+<p>Задать фон формулы в Math невозможно, так как по правилам математики цвет
+фона формулы всегда прозрачный. Цвет фона всей формулы совпадает с цветом фона документа. В Writer можно использовать свойства объекта (щелкните
+по формуле правой кнопкой мыши и выберите <em class="guilabel">Объект</em>), чтобы выбрать цвет фона для всей формулы, а также границы и размер (подробнее в разделе
+<a class="reference internal" href="#math-writer"><em>Формулы в текстовых документах Writer</em></a>).</p>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="math-writer">
+<span id="id28"></span><h2>Формулы в текстовых документах Writer<a class="headerlink" href="#math-writer" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="id29">
+<h3>Нумерация формул<a class="headerlink" href="#id29" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Одной из неочевидных функций LibreOffice является функция вставки нумерованных формул. Для этого:</p>
+<ol class="arabic simple">
+<li>Установите курсор на новую строку;</li>
+<li>Введите <tt class="docutils literal"><span class="pre">fn</span></tt> (как сочетание букв <tt class="docutils literal"><span class="pre">f</span></tt> и <tt class="docutils literal"><span class="pre">n</span></tt>, а не клавиша <tt class="docutils literal"><span class="pre">Fn</span></tt>);</li>
+<li>Затем нажмите клавишу <tt class="docutils literal"><span class="pre">F3</span></tt>.</li>
+</ol>
+<p id="index-24">Произойдет автозамена <tt class="docutils literal"><span class="pre">fn</span></tt> на формулу:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="69%" />
+<col width="31%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><img class="math" src="_images/math/10bf9da6d79372f7bbd4efdc27b744e3e1ebb4fd.png" alt="F = mc^2"/></td>
+<td><img class="math" src="_images/math/c499758f3261214459d92fd4f444117a603af2cc.png" alt="(1)"/></td>
+</tr>
+</tbody>
+</table>
+<p>Теперь вы можете дважды щелкнуть по формуле левой кнопкой мыши, чтобы перейти в режим редактирования формулы. Нажмите любую область в документе за пределами формулы, чтобы вернуться  к стандартному режиму Writer.</p>
+<p>Также можно вставить перекрестную ссылку на уравнение (например, смотрите <em>Формулу 1</em>). Для этого выполните:</p>
+<ol class="arabic simple">
+<li>Выберите <em class="menuselection">Вставка ‣ Перекрестная ссылка</em>;</li>
+<li>На вкладке <em class="guilabel">Перекрестные ссылки</em>, в поле <em class="guilabel">Тип</em> выберите  <em class="guilabel">Текст</em>;</li>
+<li>В поле <em class="guilabel">Выделенное</em> выберите номер формулы;</li>
+<li>В поле <em class="guilabel">Вставить ссылку на</em> выберите <em class="guilabel">Категория и номер</em>;</li>
+<li>Нажмите <em class="guilabel">Вставить</em>.</li>
+</ol>
+<div class="figure align-center" id="math-short-021">
+<a class="reference internal image-reference" href="_images/math-short-021.png"><img alt="Вставка перекрестной ссылки на формулу" src="_images/math-short-021.png" style="width: 414.0px; height: 342.6px;" /></a>
+<p class="caption">Вставка перекрестной ссылки на формулу</p>
+</div>
+<p>При добавлении новых формул в документ, все формулы будут автоматически пронумерованы, а перекрестные ссылки обновлены.</p>
+<p>Вставка нумерованных формул осуществляется с помощью функции <em class="guilabel">Автотекст</em>. Она состоит из таблицы 1х2, левая ячейка которой содержит формулу, а правая – значение автоматического счетчика <em class="guilabel">Текст</em>. Вы можете отредактировать данный автотекст, например, если необходимо писать номер формулы в квадратных скобках. Подробнее смотрите раздел  <em>Использование автотекста</em> в Главе 3 краткого руководства по LibreOffice.</p>
+</div>
+<div class="section" id="id30">
+<h3>Выравнивание по вертикали<a class="headerlink" href="#id30" title="Ссылка на этот заголовок">¶</a></h3>
+<p>По умолчанию формулы в текстовых документах Writer привязываются в режиме <em class="guilabel">Как символ</em> и выравниваются по базовой линии. Выравнивание формулы по вертикали в строке, как и любого OLE-объекта, может быть изменено, для этого перейдите в <em class="menuselection">Сервис ‣ Параметры ‣ LibreOffice Writer ‣ Знаки форматирования</em> и снимите флажок напротив  <em class="guilabel">Формулы Math по базовой линии</em>.</p>
+<p>Данная настройка применяется ко всем формулам в документе и сохраняется вместе с ним. Новые документы используют настройки по умолчанию.</p>
+</div>
+<div class="section" id="id31">
+<h3>Отступы и обтекание<a class="headerlink" href="#id31" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Вставленные в документ объекты Math имеют отступы справа и слева от окружающего текста. Чтобы настроить отступы и интервалы одновременно для всех формул в документе, выполните следующие действия:</p>
+<ol class="arabic simple">
+<li>Нажмите <em class="guilabel">F11</em> или перейдите в <em class="menuselection">Формат ‣ Стили</em>. Откроется диалоговое окно <em class="guilabel">Стили и форматирование</em>;</li>
+<li>Перейдите на вкладку <em class="guilabel">Стили врезок</em>;</li>
+<li>Найдите стиль <em class="guilabel">Формула</em> и щелкните на нём правой кнопкой мыши;</li>
+<li>В выпавшем меню выберите пункт <em class="guilabel">Изменить</em>. Откроется диалоговое окно <em class="guilabel">Стиль врезок</em> (смотрите рисунок <a class="reference internal" href="#math-short-027"><em>Стили формулы</em></a>);</li>
+<li>Перейдите на вкладку <em class="guilabel">Обтекание</em> и измените значения категории <em class="guilabel">Расстояние</em>;</li>
+<li>Нажмите <em class="guilabel">Ок</em>, чтобы закрыть диалоговое окно.</li>
+</ol>
+<p>Это изменит настройки отступов и обтекания для всех формул в документе.</p>
+<div class="figure align-center" id="math-short-022">
+<a class="reference internal image-reference" href="_images/math-short-022.png"><img alt="Настройка отступов и интервалов формул" src="_images/math-short-022.png" style="width: 377.0px; height: 324.5px;" /></a>
+<p class="caption">Настройка отступов и интервалов формул</p>
+</div>
+</div>
+<div class="section" id="id32">
+<h3>Текстовый режим<a class="headerlink" href="#id32" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Большие формулы должны располагаться на отдельной строке. Когда формулы располагаются внутри предложения, их высота может быть выше высоты строки. Тем не менее, если необходимо поместить подобную формулу в предложение, в Math есть специальный режим отображения формул. Откройте редактор формул и перейдите в <em class="menuselection">Формат ‣ Текстовый режим</em>. В текстовом режиме Math будет стараться уменьшить высоту формулы в соответствии с высотой строки.</p>
+<div class="section" id="id33">
+<h4>Пример<a class="headerlink" href="#id33" title="Ссылка на этот заголовок">¶</a></h4>
+<p>В качестве примера сравните отображение формулы в обычном режиме <img class="math" src="_images/math/13fc478341d50a0c65939d070e2ad6ee2569ef15.png" alt="\sum\limits_{i=2}^{5} {i^2}"/> и отображение в текстовом режиме <img class="math" src="_images/math/bbb3ad6fb900be2b45e11f4f30368b202914ed08.png" alt="\sum_{i=2}^{5} {i^2}"/></p>
+</div>
+</div>
+<div class="section" id="id34">
+<h3>Фон, обрамление и размер<a class="headerlink" href="#id34" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Формулы в текстовых документах Writer рассматриваются как объекты во врезках. Цвет фона и параметры обрамления могут быть настроены в стилях врезок (конкретно в стиле <em class="guilabel">Формула</em>) или непосредственно через диалоговое окно <em class="guilabel">Объект</em>, которое можно вызвать нажав правой кнопкой мыши на формулу и выбрав пункт <em class="guilabel">Объект</em>.</p>
+<p>Размер шрифта формулы может быть изменен только в режиме редактирования формулы, подробнее смотрите раздел <a class="reference internal" href="#changing-the-font-size"><em>Изменение размера (кегля) шрифта</em></a>.</p>
+</div>
+<div class="section" id="id35">
+<h3>Создание библиотеки формул<a class="headerlink" href="#id35" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Любую формулу  можно сохранить в отдельном файле. Если вы находитесь в модуле Math, выберите меню <em class="menuselection">Файл ‣ Сохранить</em>. Если вы находитесь в текстовом документе Writer, нажмите правой кнопкой мыши на формулу и выберите пункт <em class="guilabel">Сохранить копию как</em>.</p>
+<p>Позже, сохраненная таким образом формула, может быть вставлена в любой документ в качестве OLE-объекта. Для этого:</p>
+<ol class="arabic simple">
+<li>Перейдите в меню <em class="menuselection">Вставка ‣ Объект ‣ Объект OLE</em>;</li>
+<li>В открывшемся диалоге выберите <em class="guilabel">Формула LibreOffice</em>;</li>
+<li>Затем выберите <em class="guilabel">Создать из файла</em>;</li>
+<li>В диалоге выбора файлов выберите файл с формулой и нажмите <em class="guilabel">Вставить</em>.</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Совет</p>
+<p class="last">При необходимости можно установить галочку напротив <em class="guilabel">Связать с файлом</em>, тогда все изменения в файле с формулой будут автоматичсеки отображаться в текущем документе.</p>
+</div>
+<div class="figure align-center" id="math-short-023">
+<a class="reference internal image-reference" href="_images/math-short-023.png"><img alt="Вставка формулы как объекта OLE" src="_images/math-short-023.png" style="width: 250.8px; height: 157.2px;" /></a>
+<p class="caption">Вставка формулы как объекта OLE</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Сохраненную в отдельном файле формулу невозможно вставить в текстовый документ с помощью перетаскивания мышью или меню  <em class="menuselection">Вставка ‣ Файл</em>.</p>
+</div>
+<p>Формулы не могут быть сохранены в Галерее, так как они находятся не в графическом формате. Однако, можно сохранить формулу как Автотекст. Для этого наберите формулу в текстовом документе Writer и перейдите в меню <em class="menuselection">Правка ‣ Автотекст</em>. Подробнее смотрите главу 3 в Руководстве по Writer.</p>
+</div>
+<div class="section" id="id36">
+<h3>Быстрая вставка формул<a class="headerlink" href="#id36" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Если вы выучили разметку формул, то для быстрой вставки формулы в текстовые документы достаточно просто набрать разметку на новой строке, выделить её и перейти в меню <em class="menuselection">Вставка ‣ Объект ‣ Формула</em>. Разметка будет автоматически преобразована в формулу, без вызова редактора формул.</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id37">
+<h2>Дополнительная настройка<a class="headerlink" href="#id37" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="customizing-the-catalog">
+<span id="id38"></span><h3>Настройка Каталога<a class="headerlink" href="#customizing-the-catalog" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Если необходимо вставить в формулу дополнительные символы, для которых отсутствуют команды разметки Math, нужно воспользоваться <em class="guilabel">Каталогом</em>.</p>
+<p>Math может использовать любые символы из доступных в установленных в системе шрифтах. Так что, если у вас есть шрифт со смайликами или готический шрифт, то можно вставлять их прямо в ваши формулы.</p>
+<p>Каталог содержит несколько стандартных наборов символов. Любой из этих набором можно изменить (добавив, удалив, изменив отдельные символы) или можно создавать свои наборы.</p>
+<p>Каждый символ в Каталоге начинается с символа <tt class="docutils literal"><span class="pre">%</span></tt>. Для символов греческого алфавита заданы стандартные команды, которые имеют вид <tt class="docutils literal"><span class="pre">%ALPHA</span></tt>. Для нестандартных символов обычно используется их позиция в юникоде — <tt class="docutils literal"><span class="pre">%Ux0054</span></tt>. Предварительно нестандартные символы нужно добавить в Каталог. Также при добавлении им можно присвоить своё оригинальное название.</p>
+<p>Рассмотрим работу с каталогом на примере. Создадим собственный набор символов и добавим в него символ из другого шрифта, для этого:</p>
+<ol class="arabic simple">
+<li>Перейдите в <em class="menuselection">Сервис ‣ Каталог</em>;</li>
+<li>Нажмите кнопку <em class="guilabel">Изменить</em>, чтобы открыть диалог <em class="guilabel">Правка символов</em>.</li>
+</ol>
+<div class="figure align-center" id="math-short-024">
+<a class="reference internal image-reference" href="_images/math-short-024.png"><img alt="Правка символов" src="_images/math-short-024.png" style="width: 431.5px; height: 254.5px;" /></a>
+<p class="caption">Правка символов</p>
+</div>
+<ol class="arabic simple" start="3">
+<li>Для создания нового набора в поле <em class="guilabel">Набор символов</em> введите произвольное название.</li>
+<li>В списке <em class="guilabel">Шрифт</em> выберите шрифт, из которого будут браться те или иные символы. Для выбора доступны все шрифты, установленные в системе. В примере я использовал шрифт <tt class="docutils literal"><span class="pre">fonts-oflb-asana-math</span></tt>.</li>
+<li>В поле <em class="guilabel">Символ</em>  присвойте  символу свою команду, в противном случае по умолчанию будет использован  код его позиции в юникоде. Присвоим символу название <tt class="docutils literal"><span class="pre">MyChar</span></tt>, следовательно, вводиться он будет командой <tt class="docutils literal"><span class="pre">%MyChar</span></tt>.</li>
+<li>После выбора символа и присвоения ему всех параметров нажмите кнопку <em class="guilabel">Добавить</em>. Символ добавлен в каталог вместе с новым набором.</li>
+</ol>
+<div class="figure align-center" id="math-short-025">
+<a class="reference internal image-reference" href="_images/math-short-025.png"><img alt="Диалог символы" src="_images/math-short-025.png" style="width: 357.6px; height: 156.6px;" /></a>
+<p class="caption">Диалог символы</p>
+</div>
+<p>Теперь можно вставлять новый символ либо через каталог, либо командой <tt class="docutils literal"><span class="pre">%MyChar</span></tt>.</p>
+<div class="figure align-center" id="math-short-026">
+<a class="reference internal image-reference" href="_images/math-short-026.png"><img alt="Вставка нового символа" src="_images/math-short-026.png" style="width: 303.0px; height: 255.0px;" /></a>
+<p class="caption">Вставка нового символа</p>
+</div>
+<p>Многие бесплатные шрифты содержат большое количество математических символов. Например, шрифт STIX <a class="footnote-reference" href="#id42" id="id39">[1]</a> был специально разработан для математических и технических текстов. Шрифты DejaVu <a class="footnote-reference" href="#id43" id="id40">[2]</a> и Lucida <a class="footnote-reference" href="#id44" id="id41">[3]</a> также включают широкий набор дополнительных символов.</p>
+<table class="docutils footnote" frame="void" id="id42" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id39">[1]</a></td><td>Семейство шрифтов STIX доступно на сайте <a class="reference external" href="http://www.stixfonts.org/">http://www.stixfonts.org/</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id43" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id40">[2]</a></td><td>Семейство шрифтов DejaVu доступно на сайте <a class="reference external" href="http://www.dejavu-fonts.org">http://www.dejavu-fonts.org</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id44" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id41">[3]</a></td><td>Lucida Sans входит в состав  пакета <abbr title="Java Runtime Environment">JRE</abbr>, вероятно, он уже установлен на вашем компьютере.</td></tr>
+</tbody>
+</table>
+<p>По умолчанию Math сохраняет все пользовательские наборы в файле, что позволяет делиться им с другими людьми, не опасаясь проблем с отображением. Для уменьшения размера файла, можно сохранять в файле только используемые символы, а не полностью весь набор. Для этого перейдите в модуле Math в <em class="menuselection">Сервис ‣ Параметры ‣ LibreOffice Math ‣ Настройки</em> и установите галочку напротив <em class="guilabel">Внедрять только используемые символы</em>.</p>
+</div>
+<div class="section" id="id45">
+<h3>Стандартный стиль формулы<a class="headerlink" href="#id45" title="Ссылка на этот заголовок">¶</a></h3>
+<p>В Writer формулы оформляются в соответствии с настройками, заложенными в стиле врезок <em class="guilabel">Формула</em>. С помощью модификации данного стиля можно изменить настройки всех формул в документе, подробнее смотрите главу <a class="reference internal" href="#id31">Отступы и обтекание</a>.</p>
+<div class="figure align-center" id="math-short-027">
+<a class="reference internal image-reference" href="_images/math-short-027.png"><img alt="Стили формулы" src="_images/math-short-027.png" style="width: 152.4px; height: 162.6px;" /></a>
+<p class="caption">Стили формулы</p>
+</div>
+<p>Изменения в стилях сохраняются только для текущего документа. Чтобы применить эти изменения ко всем новым документам, необходимо сохранить текущий документ в качестве шаблона, а затем установить его в качестве стандартного шаблона для текстовых документов. Для получения более подробной информации о диспетчере шаблонов обратитесь к главе 9 краткого руководства по LibreOffice.</p>
+</div>
+<div class="section" id="id46">
+<h3>Набор химических формул<a class="headerlink" href="#id46" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Math  можно использовать и для набора химических формул, которые обычно набираются в прямом начертании в верхнем регистре. Чтобы  отключить наклонное начертание, используйте команду <tt class="docutils literal"><span class="pre">nitalic</span></tt> или измените шрифт всей формулы, подробнее смотрите <a class="reference internal" href="#changing-the-font"><em>Изменение гарнитуры шрифта</em></a>.</p>
+<p id="index-25">Вот некоторые примеры химических формул:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Оператор</th>
+<th class="head">Результат</th>
+<th class="head">Разметка</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Молекулы</td>
+<td>H<sub>2</sub>SO<sub>4</sub></td>
+<td><tt class="docutils literal"><span class="pre">H_2</span> <span class="pre">SO_4</span></tt> (пробел между элементами обязателен)</td>
+</tr>
+<tr class="row-odd"><td>Изотопы</td>
+<td><img class="math" src="_images/math/95a1cf6b8a45b236296f65046e23030ba9e838b7.png" alt="{^{238}_{92}\mathrm{U}}"/></td>
+<td><tt class="docutils literal"><span class="pre">U</span> <span class="pre">lsub</span> <span class="pre">92</span> <span class="pre">lsup</span> <span class="pre">238</span></tt></td>
+</tr>
+<tr class="row-even"><td>Ионы</td>
+<td><img class="math" src="_images/math/96d322f6ca411d11089f118bb5088698bd44b868.png" alt="{\mathrm{SO}^{2-}_{4}}"/></td>
+<td><tt class="docutils literal"><span class="pre">SO_4^{2-{}}</span></tt> или <tt class="docutils literal"><span class="pre">SO_4^{2&quot;-&quot;}</span></tt></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Для набора верхних и нижних индексов перед символом, используются команды <tt class="docutils literal"><span class="pre">lsup</span></tt> и <tt class="docutils literal"><span class="pre">lsub</span></tt>.</p>
+</div>
+<div class="admonition note" id="index-26">
+<p class="first admonition-title">Примечание</p>
+<p class="last">В последнем примере, пустые скобки после знака минус необходимы, так как Math требует наличия какого-либо элемента после него.</p>
+</div>
+<p>Для набора обратимых реакций не существует специальных команд разметки, просто скопируйте символы <tt class="docutils literal"><span class="pre">⇄</span> <span class="pre">⇆</span> <span class="pre">⇋</span> <span class="pre">⇌</span></tt> из стандартного набора символов.</p>
+<p>Если у вас есть шрифт с подходящими символами, вы можете использовать метод, описанный в разделе <a class="reference internal" href="#customizing-the-catalog"><em>Настройка Каталога</em></a>.</p>
+<p>Многие специальные символы можно найти на следующих ресурсах:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://dev.w3.org/html5/html-author/charref">http://dev.w3.org/html5/html-author/charref</a></li>
+<li><a class="reference external" href="http://www.unicode.org/charts/PDF/U2190.pdf">http://www.unicode.org/charts/PDF/U2190.pdf</a></li>
+<li><a class="reference external" href="http://www.unicode.org/charts/#symbol">http://www.unicode.org/charts/#symbol</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id47">
+<h2>Справка по командам Math<a class="headerlink" href="#id47" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Полный список команд и зарезервированных слов, используемых в Math, доступен в Руководстве по Math:</p>
+<ul class="simple">
+<li>Унарные/бинарные операторы</li>
+<li>Отношения</li>
+<li>Операции над множествами</li>
+<li>Функции</li>
+<li>Операторы</li>
+<li>Атрибуты</li>
+<li>Скобки</li>
+<li>Форматы</li>
+<li>Прочее</li>
+<li>Символы греческого алфавита</li>
+<li>Специальные символы</li>
+<li>Зарезервированные слова в алфавитном порядке</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="community.html" class="btn btn-neutral" title="Русскоязычное сообщество LibreOffice"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, Dmitry Mazhartsev.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
