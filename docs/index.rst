@@ -23,6 +23,7 @@
 
    preface
    community
+   Chapter-1-Introducing-LibreOffice
    math
    KeyboardShortcuts
 
