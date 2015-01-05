@@ -24,6 +24,7 @@
    preface
    community
    math
+   KeyboardShortcuts
 
 
 
