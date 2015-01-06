@@ -90,17 +90,20 @@
 <li><a class="reference internal" href="#id26">Создание новых документов</a></li>
 <li><a class="reference internal" href="#id27">Открытие существующих документов</a></li>
 <li><a class="reference internal" href="#id28">Сохранение документов</a><ul>
-<li><a class="reference internal" href="#id29">Защита паролем</a></li>
-<li><a class="reference internal" href="#id30">Смена пароля</a></li>
-<li><a class="reference internal" href="#id31">Автосохранение документов</a></li>
+<li><a class="reference internal" href="#id29">Защита паролем</a><ul>
+<li><a class="reference internal" href="#id34">Смена пароля</a></li>
+<li><a class="reference internal" href="#id35">Снятие защиты паролем</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#id32">Переименование и удаление файлов</a></li>
-<li><a class="reference internal" href="#id33">Диалоговые окна <em class="guilabel">Открыть</em> и <em class="guilabel">Сохранить как...</em></a></li>
-<li><a class="reference internal" href="#id34">Использование Навигатора</a></li>
-<li><a class="reference internal" href="#id35">Отмена и повтор изменений</a></li>
-<li><a class="reference internal" href="#id36">Закрытие документа</a></li>
-<li><a class="reference internal" href="#id37">Закрытие LibreOffice</a></li>
+<li><a class="reference internal" href="#id36">Автосохранение документов</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id37">Переименование и удаление файлов</a></li>
+<li><a class="reference internal" href="#id38">Диалоговые окна <em class="guilabel">Открыть</em> и <em class="guilabel">Сохранить как...</em></a></li>
+<li><a class="reference internal" href="#id39">Использование Навигатора</a></li>
+<li><a class="reference internal" href="#id40">Отмена и повтор изменений</a></li>
+<li><a class="reference internal" href="#id41">Закрытие документа</a></li>
+<li><a class="reference internal" href="#id42">Закрытие LibreOffice</a></li>
 </ul>
 </li>
 </ul>
@@ -455,18 +458,58 @@
 </div>
 <div class="section" id="id27">
 <h2>Открытие существующих документов<a class="headerlink" href="#id27" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Вы можете открыть существующие документы следующими способами:</p>
+<ul class="simple">
+<li>Если нет  открытых документов, нажмите на значок <em class="guilabel">Открыть файл</em> на стартовом экране и выберите из списка доступных документов.</li>
+<li>Нажмите маленький треугольник справа от значка <em class="guilabel">Открыть</em> на стандартной панели инструментов и выберите из списка последних открытых документов.</li>
+<li>Используйте пункт главного меню <em class="menuselection"><span class="accelerator">Ф</span>айл ‣ <span class="accelerator">О</span>ткрыть</em>.</li>
+<li>Щелкните значок <em class="guilabel">Открыть</em> на стандартной панели, если какой-либо документ уже открыт.</li>
+<li>Нажмите сочетание клавиш <tt class="docutils literal"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">O</span></tt> на клавиатуре.</li>
+</ul>
+<p>В каждом из описанных способов откроется окно выбора файлов. Перейдите в нужный каталог, выберите требуемый файл и нажмите кнопку <em class="guilabel">Открыть</em>. Если какой-либо документ уже открыт в LibreOffice, то второй документ откроется в новом окне.</p>
+<p>В диалоге открытия файлов вы можете сократить список отображаемых файлов, задав тип (расширение) необходимых вам файлов. Например, если вы укажете тип файла <em>Текстовый документ</em>, то увидите в окне только документы Writer (включая файлы с расширением <tt class="docutils literal"><span class="pre">.odt</span></tt>, <tt class="docutils literal"><span class="pre">.doc</span></tt>, <tt class="docutils literal"><span class="pre">.txt</span></tt>); если укажите <em>Электронные таблицы</em>, то вы увидите файлы с расширениями <tt class="docutils literal"><span class="pre">.ods</span></tt>, <tt class="docutils literal"><span class="pre">.xls</span></tt> и другие файлы, открываемые в Calc.</p>
+<p>Также вы можете открыть существующий документ в формате, который поддерживает LibreOffice,  нажав два раза на файл на рабочем столе или в окне файлового менеджера (таком как Windows Explorer). Будет запущен соответствующий формату файла компонент LibreOffice.</p>
 </div>
 <div class="section" id="id28">
 <h2>Сохранение документов<a class="headerlink" href="#id28" title="Ссылка на этот заголовок">¶</a></h2>
 <div class="section" id="id29">
 <h3>Защита паролем<a class="headerlink" href="#id29" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Чтобы ограничить число людей, которые могут открывать и читать документ или открывать и редактировать документ, вы должны использовать защиту документа паролем, для этого:</p>
+<ol class="arabic simple">
+<li>В диалоговом окне <em class="guilabel">Сохранить как...</em> выберите опцию <em class="guilabel">Сохранить с паролем</em>.</li>
+</ol>
+<div class="figure align-center" id="ch1-lo-screen-014">
+<a class="reference internal image-reference" href="_images/ch1-lo-screen-014.png"><img alt="Диалог сохранения документа" src="_images/ch1-lo-screen-014.png" style="width: 297.6px; height: 226.0px;" /></a>
+<p class="caption">Диалог сохранения документа</p>
 </div>
-<div class="section" id="id30">
-<h3>Смена пароля<a class="headerlink" href="#id30" title="Ссылка на этот заголовок">¶</a></h3>
+<ol class="arabic simple" start="2">
+<li>Нажмите кнопку <em class="guilabel">Сохранить</em>, откроется диалоговое окно <em class="guilabel">Задать пароль</em>.</li>
+</ol>
+<div class="figure align-center" id="ch1-lo-screen-015">
+<a class="reference internal image-reference" href="_images/ch1-lo-screen-015.png"><img alt="Диалог Задать пароль" src="_images/ch1-lo-screen-015.png" style="width: 217.0px; height: 245.5px;" /></a>
+<p class="caption">Диалог <em class="guilabel">Задать пароль</em></p>
+</div>
+<ol class="arabic simple" start="3">
+<li>В разделе <em class="guilabel">Пароль для шифрования файла</em> введите пароль на открытие документа и повторите пароль для подтверждения.</li>
+<li>Для установки пароля на <em class="guilabel">редактирования файла</em> нажмите кнопку <em class="guilabel">Детали</em>.</li>
+<li>В разделе <em class="guilabel">Пароль для совместного использования файла</em> установите галочку :guilabel:<a href="#id30"><span class="problematic" id="id31">`</span></a>Открыть только для чтенияё и введите пароль на редактирование документа, ниже повторите пароль для подтверждения .</li>
+<li>Нажмите кнопку :guilabel:<a href="#id32"><span class="problematic" id="id33">`</span></a>OKё для закрытия диалога. Если пароли совпадают, то документ сохранится с защитой паролем. Если пароли не совпадают, то вы увидите сообщение об ошибке.</li>
+</ol>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">LibreOffice использует очень стойкий механизм шифрования, что делает практически невозможным восстановление данных из документа в случае, если вы забыли пароль!</p>
+</div>
+<div class="section" id="id34">
+<h4>Смена пароля<a class="headerlink" href="#id34" title="Ссылка на этот заголовок">¶</a></h4>
 <p>Если документ защищен паролем, то изменить пароль можно только  в открытом документе. Откройте меню <em class="menuselection"><span class="accelerator">Ф</span>айл ‣ Сво<span class="accelerator">й</span>ства ‣ Общие</em> и нажмите кнопку <em class="guilabel">Изменить пароль</em>. Откроется диалоговое окно <em class="guilabel">Задать пароль</em>, в котором вы сможете ввести новый пароль.</p>
 </div>
-<div class="section" id="id31">
-<h3>Автосохранение документов<a class="headerlink" href="#id31" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="section" id="id35">
+<h4>Снятие защиты паролем<a class="headerlink" href="#id35" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Чтобы снять пароль с документа, необходимо пересохранить его, воспользовавшись меню <em class="menuselection"><span class="accelerator">Ф</span>айл ‣ Сохранить <span class="accelerator">к</span>ак</em> и убрав галочку напротив опции <em class="guilabel">Сохранить с паролем</em>.</p>
+</div>
+</div>
+<div class="section" id="id36">
+<h3>Автосохранение документов<a class="headerlink" href="#id36" title="Ссылка на этот заголовок">¶</a></h3>
 <p>LibreOffice может сохранять файлы автоматически. Эта функция является частью функции автовосстановления документов LibreOffice. Автоматическое сохранение похоже на обычное сохранение документа, оно перезаписывает последнее сохраненное состояние файла. Чтобы установить автоматическое сохранение файлов:</p>
 <ol class="arabic simple">
 <li>Откройте в главном меню <em class="menuselection">С<span class="accelerator">е</span>рвис ‣ <span class="accelerator">П</span>араметры ‣ Загрузка/сохранение ‣ Общие</em>;</li>
@@ -475,24 +518,24 @@
 </ol>
 </div>
 </div>
-<div class="section" id="id32">
-<h2>Переименование и удаление файлов<a class="headerlink" href="#id32" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="id37">
+<h2>Переименование и удаление файлов<a class="headerlink" href="#id37" title="Ссылка на этот заголовок">¶</a></h2>
 <p>Вы можете переименовывать или удалять файлы с жесткого диска в диалогах открытия/сохранения файлов LibreOffice, точно так же, как в файловом менеджере. Выберите файл и нажмите на него правой кнопкой мыши, откроется контекстное меню. Выберите <em class="guilabel">Удалить</em> или <em class="guilabel">Переименовать</em> в зависимости от потребности.</p>
 </div>
-<div class="section" id="id33">
-<h2>Диалоговые окна <em class="guilabel">Открыть</em> и <em class="guilabel">Сохранить как...</em><a class="headerlink" href="#id33" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="id38">
+<h2>Диалоговые окна <em class="guilabel">Открыть</em> и <em class="guilabel">Сохранить как...</em><a class="headerlink" href="#id38" title="Ссылка на этот заголовок">¶</a></h2>
 </div>
-<div class="section" id="id34">
-<h2>Использование Навигатора<a class="headerlink" href="#id34" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="id39">
+<h2>Использование Навигатора<a class="headerlink" href="#id39" title="Ссылка на этот заголовок">¶</a></h2>
 </div>
-<div class="section" id="id35">
-<h2>Отмена и повтор изменений<a class="headerlink" href="#id35" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="id40">
+<h2>Отмена и повтор изменений<a class="headerlink" href="#id40" title="Ссылка на этот заголовок">¶</a></h2>
 </div>
-<div class="section" id="id36">
-<h2>Закрытие документа<a class="headerlink" href="#id36" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="id41">
+<h2>Закрытие документа<a class="headerlink" href="#id41" title="Ссылка на этот заголовок">¶</a></h2>
 </div>
-<div class="section" id="id37">
-<h2>Закрытие LibreOffice<a class="headerlink" href="#id37" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="id42">
+<h2>Закрытие LibreOffice<a class="headerlink" href="#id42" title="Ссылка на этот заголовок">¶</a></h2>
 <p>Чтобы полностью закрыть LibreOffice, выберите в главном меню <em class="menuselection"><span class="accelerator">Ф</span>айл  ‣ Выйти <span class="accelerator">и</span>з LibreOffice</em> в ОС Windows и Linux. В ОС Mac OS X выберите  в главном меню <em class="menuselection">LibreOffice  ‣ Выйти из LibreOffice</em>.</p>
 <p>Если последний открытый документ закрыть нажатием на <tt class="docutils literal"><span class="pre">x</span></tt> (крестик) в заголовке окна программы, то LibreOffice закроется полностью. Для ОС Mac OS X данная функция недоступна; вместо этого вы должны выбрать в главном меню <em class="menuselection">LibreOffice  ‣ Выйти из LibreOffice</em>.</p>
 <p>Вы можете также использовать сочетания клавиш:</p>
