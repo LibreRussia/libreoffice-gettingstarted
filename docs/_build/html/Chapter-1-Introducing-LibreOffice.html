@@ -74,9 +74,33 @@
 </li>
 <li><a class="reference internal" href="#id15">Элементы главного окна программы</a><ul>
 <li><a class="reference internal" href="#id16">Главное меню</a></li>
-<li><a class="reference internal" href="#id17">Панели инструментов</a></li>
+<li><a class="reference internal" href="#id17">Панели инструментов</a><ul>
+<li><a class="reference internal" href="#id18">Отображение и скрытие панелей инструментов</a></li>
+<li><a class="reference internal" href="#id19">Подменю и наборы инструментов</a></li>
+<li><a class="reference internal" href="#id20">Перемещение панелей инструментов</a></li>
+<li><a class="reference internal" href="#id21">Плавающие панели инструментов</a></li>
+<li><a class="reference internal" href="#id22">Настройка панелей инструментов</a></li>
+<li><a class="reference internal" href="#id23">Фиксированные и плавающие диалоги</a></li>
+<li><a class="reference internal" href="#id24">Контекстное меню</a></li>
+<li><a class="reference internal" href="#id25">Строка состояния</a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id26">Создание новых документов</a></li>
+<li><a class="reference internal" href="#id27">Открытие существующих документов</a></li>
+<li><a class="reference internal" href="#id28">Сохранение документов</a><ul>
+<li><a class="reference internal" href="#id29">Защита паролем</a></li>
+<li><a class="reference internal" href="#id30">Смена пароля</a></li>
+<li><a class="reference internal" href="#id31">Автосохранение документов</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id32">Переименование и удаление файлов</a></li>
+<li><a class="reference internal" href="#id33">Диалоговые окна «Открыть» и «Сохранить как...»</a></li>
+<li><a class="reference internal" href="#id34">Использование Навигатора</a></li>
+<li><a class="reference internal" href="#id35">Отмена и повтор изменений</a></li>
+<li><a class="reference internal" href="#id36">Закрытие документа</a></li>
+<li><a class="reference internal" href="#id37">Закрытие LibreOffice</a></li>
 </ul>
 </li>
 </ul>
@@ -117,7 +141,7 @@
 <h1>Глава 1 – Введение в LibreOffice<a class="headerlink" href="#libreoffice" title="Ссылка на этот заголовок">¶</a></h1>
 <div class="section" id="id1">
 <h2>Что такое LibreOffice?<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h2>
-<p>LibreOffice – это свободный и бесплатный, полнофункциональный набор офисных программ. Его собственным форматом файлов является Open Document Format (ODF). Этот формат является открытым, принят как международный стандарт <abbr title="Международная организация по стандартизации">ISO</abbr>/<abbr title="Международная электротехническая комиссия">IEC</abbr> 26300 <a class="footnote-reference" href="#id4" id="id2">[1]</a> и используется правительствами многих стран по всему миру, как формат публикации и обмена документами, в том числе и в Российской Федерации <a class="footnote-reference" href="#id5" id="id3">[2]</a> .</p>
+<p>LibreOffice – это свободный и бесплатный, полнофункциональный набор офисных программ. В качестве собственного формата файлов используется Open Document Format (ODF). Этот формат является открытым, принят как международный стандарт <abbr title="Международная организация по стандартизации">ISO</abbr>/<abbr title="Международная электротехническая комиссия">IEC</abbr> 26300 <a class="footnote-reference" href="#id4" id="id2">[1]</a> и используется правительствами многих стран по всему миру, как формат публикации и обмена документами, в том числе и в Российской Федерации <a class="footnote-reference" href="#id5" id="id3">[2]</a> .</p>
 <table class="docutils footnote" frame="void" id="id4" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
@@ -245,7 +269,7 @@
 <li>Для файлов PowerPoint (<tt class="docutils literal"><span class="pre">*.ppt</span></tt> или <tt class="docutils literal"><span class="pre">*.pptx</span></tt>), они откроются в компоненте Impress.</li>
 </ul>
 <p>Если вы не настраивали ассоциации файлов Microsoft Office и он установлен на вашем компьютере, то при попытке открыть файл Microsoft Office будет использован соответствующий компонент Microsoft Office.</p>
-<p>Для получения более подробной информации смотрите раздел <em>Открытие существующих документов</em> <strong>????????????????????</strong>.</p>
+<p>Для получения более подробной информации смотрите раздел <a class="reference internal" href="#id27">Открытие существующих документов</a>.</p>
 <div class="section" id="windows-linux">
 <h3>Быстрый запуск в Windows и Linux<a class="headerlink" href="#windows-linux" title="Ссылка на этот заголовок">¶</a></h3>
 <p>LibreOffice включает функцию <em class="guilabel">Быстрого запуска</em> (Quickstarter). При её активации в системном лотке (трее) появляется значок <a class="reference internal" href="_images/lo-tray-icon.png"><img alt="lo-tray" src="_images/lo-tray-icon.png" style="width: 14.69px; height: 17.42px;" /></a>, а LibreOffice загружается в оперативную память при старте операционной системы, что позволяет достичь более быстрого запуска офисного пакета.</p>
@@ -303,7 +327,7 @@
 </div>
 <div class="section" id="id17">
 <h3>Панели инструментов<a class="headerlink" href="#id17" title="Ссылка на этот заголовок">¶</a></h3>
-<p>В LibreOffice есть два типа панелей инструментов: закрепленные (зафиксированные на месте) и плавающие. Закрепленные панели можно перемещать в другое место или сделать плавающими, а плавающие панели можно закрепить. Плавающие панели имеют свою рамку окна.</p>
+<p>В LibreOffice есть два типа панелей инструментов: закрепленные (зафиксированные на месте) и плавающие. Закрепленные панели можно перемещать в другое место или сделать плавающими, а плавающие панели можно закрепить. Плавающие панели имеют свою рамку окна и также могут быть перемещены в любое удобное место.</p>
 <div class="figure align-center" id="ch1-lo-screen-006">
 <a class="reference internal image-reference" href="_images/ch1-lo-screen-006.png"><img alt="Закрепленная и плавающая панель" src="_images/ch1-lo-screen-006.png" style="width: 394.8px; height: 226.4px;" /></a>
 <p class="caption">Закрепленная и плавающая панель</p>
@@ -314,7 +338,111 @@
 <p class="caption">Стандартная панель инструментов</p>
 </div>
 <p>Вторая панель сверху по умолчанию — <em class="guilabel">Панель форматирования</em>. Она изменяется в зависимости от контекста, то есть она показывает инструменты в соответствии с текущим положением курсора или выбранного объекта. Например, когда курсор находится на изображении панель форматирования показывает инструменты для работы с графическими объектами, когда курсор в тексте — показывает инструменты форматирования текста.</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Одни и те же действия в LibreOffice можно выполнять и с помощью главного меню и с помощью значков на панелях инструментов. Панели инструментов в основном служат для быстрого доступа к тем или иным действиям.</p>
 </div>
+<div class="section" id="id18">
+<h4>Отображение и скрытие панелей инструментов<a class="headerlink" href="#id18" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Для отображения или скрытия панелей зайдите в меню <em class="menuselection"><span class="accelerator">В</span>ид ‣ <span class="accelerator">П</span>анели инструментов</em> и нажмите левой кнопкой мыши на название панели в выпадающем списке. Активная панель отмечена галочкой рядом с её названием.</p>
+<p>Чтобы закрыть панель инструментов нажмите на крестик справа от имени панели (если панель плавающая) или зайдите в меню <em class="menuselection"><span class="accelerator">В</span>ид ‣ <span class="accelerator">П</span>анели инструментов</em> и снова нажмите левой кнопкой мыши на название панели.</p>
+</div>
+<div class="section" id="id19">
+<h4>Подменю и наборы инструментов<a class="headerlink" href="#id19" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Значки на панели инструментов, которые имеют справа маленький треугольник, при нажатии отображают подменю с набором инструментов или другими элементами, в зависимости от функции значка.</p>
+<div class="figure align-center" id="ch1-lo-screen-008">
+<a class="reference internal image-reference" href="_images/ch1-lo-screen-008.png"><img alt="Значки с выпадающим подменю" src="_images/ch1-lo-screen-008.png" style="width: 119.5px; height: 127.5px;" /></a>
+<p class="caption">Значки с выпадающим подменю</p>
+</div>
+<p>Наборы инструментов могут открепляться в виде плавающей панели. Для этого необходимо нажать левой кнопкой мыши на «ручку» панели и не отпуская кнопку мыши потянуть панель в сторону.  Смотрите разделы <a class="reference internal" href="#id20">Перемещение панелей инструментов</a> и <a class="reference internal" href="#id21">Плавающие панели инструментов</a> для получения дополнительной информации о перемещении и откреплении панелейв, созданных из наборов инструментов.</p>
+<div class="figure align-center" id="ch1-lo-screen-009">
+<a class="reference internal image-reference" href="_images/ch1-lo-screen-009.png"><img alt="Создание плавающей панели из набора инструментов" src="_images/ch1-lo-screen-009.png" style="width: 375.0px; height: 208.0px;" /></a>
+<p class="caption">Создание плавающей панели из набора инструментов</p>
+</div>
+</div>
+<div class="section" id="id20">
+<h4>Перемещение панелей инструментов<a class="headerlink" href="#id20" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Закрепленная панель инструментов также может быть перемещена на новое место или сделана плавающей.</p>
+<ol class="arabic simple">
+<li>Поместите курсор мыши на «ручку» панели инструментов, которая представляет собой штриховую вертикальную линию с левой стороны закрепленной панели.</li>
+<li>Нажмите на «ручку» и, удерживая левую кнопку мыши, перетащите панель инструментов на новое место. Панель инструментов будет закреплена в новой позиции сверху, слева, справа или внизу главного окна программы, в ином случае будет создана плавающая панель инструментов.</li>
+<li>Отпустите кнопку мыши.</li>
+<li>Чтобы переместить плавающую панель инструментов нажмите на заголовок панели и перетащите её на новое место или закрепите панель сверху или снизу главного окна программы.</li>
+</ol>
+<div class="figure align-center" id="ch1-lo-screen-010">
+<a class="reference internal image-reference" href="_images/ch1-lo-screen-010.png"><img alt="«Ручка» панели инструментов" src="_images/ch1-lo-screen-010.png" style="width: 383.4px; height: 70.2px;" /></a>
+<p class="caption">«Ручка» панели инструментов</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Совет</p>
+<p class="last">Также можно прикрепить плавающую панель инструментов, удерживая клавишу Ctrl и щелкая по заголовку панели.</p>
+</div>
+</div>
+<div class="section" id="id21">
+<h4>Плавающие панели инструментов<a class="headerlink" href="#id21" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Некоторые панели инструментов появляются в зависимости от контекста, например, если курсор находится в таблице, то появится (по умолчанию в нижней части главного окна программы) панель <em>Таблица</em>, если курсор в маркированном или нумерованном списке, то появится панель <em>Маркеры и нумерация</em>.</p>
+<p>Часть подобных панелей по-умолчанию настроены как плавающие. Вы можете закрепить эти панели в любой части главного окна программы или изменить их положение на экране (смотрите раздел <a class="reference internal" href="#id20">Перемещение панелей инструментов</a> выше).</p>
+</div>
+<div class="section" id="id22">
+<h4>Настройка панелей инструментов<a class="headerlink" href="#id22" title="Ссылка на этот заголовок">¶</a></h4>
+</div>
+<div class="section" id="id23">
+<h4>Фиксированные и плавающие диалоги<a class="headerlink" href="#id23" title="Ссылка на этот заголовок">¶</a></h4>
+</div>
+<div class="section" id="id24">
+<h4>Контекстное меню<a class="headerlink" href="#id24" title="Ссылка на этот заголовок">¶</a></h4>
+<p><em class="guilabel">Контекстное меню</em> позволяет осуществить быстрый доступ ко многим функциям LibreOffice и вызывается нажатием правой кнопки мыши на объекте (абзац, рисунок, символ и тому подобное). Функции и настройки, показанные в контекстном меню, зависят от объекта, на который нажали правой кнопкой мыши. Контекстное меню может быть самым простым способом найти и выполнить нужную операцию, особенно если вы не знаете, где эта операция находится в основном меню.</p>
+<p>Контекстное меню также частично дублирует функции, доступные в главном меню или на панелях инструментов. Контекстное меню может быть вызвано нажатием на клавиатуре клавиши <tt class="docutils literal"><span class="pre">Menu</span></tt> или сочетания клавиш <tt class="docutils literal"><span class="pre">Shift</span> <span class="pre">+</span> <span class="pre">F10</span></tt> в ОС Windows и Linux. В в Mac OS нажатием кнопки мыши при нажатой клавише  <tt class="docutils literal"><span class="pre">Control</span></tt>.</p>
+</div>
+<div class="section" id="id25">
+<h4>Строка состояния<a class="headerlink" href="#id25" title="Ссылка на этот заголовок">¶</a></h4>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="id26">
+<h2>Создание новых документов<a class="headerlink" href="#id26" title="Ссылка на этот заголовок">¶</a></h2>
+</div>
+<div class="section" id="id27">
+<h2>Открытие существующих документов<a class="headerlink" href="#id27" title="Ссылка на этот заголовок">¶</a></h2>
+</div>
+<div class="section" id="id28">
+<h2>Сохранение документов<a class="headerlink" href="#id28" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="id29">
+<h3>Защита паролем<a class="headerlink" href="#id29" title="Ссылка на этот заголовок">¶</a></h3>
+</div>
+<div class="section" id="id30">
+<h3>Смена пароля<a class="headerlink" href="#id30" title="Ссылка на этот заголовок">¶</a></h3>
+</div>
+<div class="section" id="id31">
+<h3>Автосохранение документов<a class="headerlink" href="#id31" title="Ссылка на этот заголовок">¶</a></h3>
+</div>
+</div>
+<div class="section" id="id32">
+<h2>Переименование и удаление файлов<a class="headerlink" href="#id32" title="Ссылка на этот заголовок">¶</a></h2>
+</div>
+<div class="section" id="id33">
+<h2>Диалоговые окна «Открыть» и «Сохранить как...»<a class="headerlink" href="#id33" title="Ссылка на этот заголовок">¶</a></h2>
+</div>
+<div class="section" id="id34">
+<h2>Использование Навигатора<a class="headerlink" href="#id34" title="Ссылка на этот заголовок">¶</a></h2>
+</div>
+<div class="section" id="id35">
+<h2>Отмена и повтор изменений<a class="headerlink" href="#id35" title="Ссылка на этот заголовок">¶</a></h2>
+</div>
+<div class="section" id="id36">
+<h2>Закрытие документа<a class="headerlink" href="#id36" title="Ссылка на этот заголовок">¶</a></h2>
+</div>
+<div class="section" id="id37">
+<h2>Закрытие LibreOffice<a class="headerlink" href="#id37" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Чтобы полностью закрыть LibreOffice, выберите в главном меню <em class="menuselection"><span class="accelerator">Ф</span>айл  ‣ Выйти <span class="accelerator">и</span>з LibreOffice</em> в ОС Windows и Linux. В ОС Mac OS X выберите  в главном меню <em class="menuselection">LibreOffice  ‣ Выйти из LibreOffice</em>.</p>
+<p>Если последний открытый документ закрывается нажатием на <tt class="docutils literal"><span class="pre">x</span></tt> (крестик) в заголовке окна программы, то LibreOffice закроется полностью. Для ОС Mac OS X данная функция недоступна; вместо этого вы должны выбрать в главном меню <em class="menuselection">LibreOffice  ‣ Выйти из LibreOffice</em>.</p>
+<p>Вы можете также использовать сочетания клавиш:</p>
+<ul class="simple">
+<li>В Windows и Linux – <tt class="docutils literal"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">Q</span></tt></li>
+<li>В Mac OS X – <tt class="docutils literal"><span class="pre">⌘Command</span> <span class="pre">+</span> <span class="pre">Q</span></tt></li>
+</ul>
+<p>Если какие-либо документы не были сохранены с момента последнего изменения, то будет показано сообщение с предложением сохранить изменения. Выберите, следует ли сохранить или отказаться от изменений.</p>
 </div>
 </div>
 
