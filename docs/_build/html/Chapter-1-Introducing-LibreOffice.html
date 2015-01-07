@@ -99,9 +99,9 @@
 </ul>
 </li>
 <li><a class="reference internal" href="#id37">Переименование и удаление файлов</a></li>
-<li><a class="reference internal" href="#id38">Диалоговые окна <em class="guilabel">Открыть</em> и <em class="guilabel">Сохранить как...</em></a></li>
+<li><a class="reference internal" href="#id38">Диалоговые окна «Открыть» и «Сохранить как...»</a></li>
 <li><a class="reference internal" href="#id39">Использование Навигатора</a></li>
-<li><a class="reference internal" href="#id40">Отмена и повтор изменений</a></li>
+<li><a class="reference internal" href="#id40">Отмена и возврат изменений</a></li>
 <li><a class="reference internal" href="#id41">Закрытие документа</a></li>
 <li><a class="reference internal" href="#id42">Закрытие LibreOffice</a></li>
 </ul>
@@ -472,17 +472,25 @@
 </div>
 <div class="section" id="id28">
 <h2>Сохранение документов<a class="headerlink" href="#id28" title="Ссылка на этот заголовок">¶</a></h2>
-<div class="section" id="id29">
-<h3>Защита паролем<a class="headerlink" href="#id29" title="Ссылка на этот заголовок">¶</a></h3>
-<p>Чтобы ограничить число людей, которые могут открывать и читать документ или открывать и редактировать документ, вы должны использовать защиту документа паролем, для этого:</p>
-<ol class="arabic simple">
-<li>В диалоговом окне <em class="guilabel">Сохранить как...</em> выберите опцию <em class="guilabel">Сохранить с паролем</em>.</li>
-</ol>
+<p>Сохранять документы можно одним из следующих способов:</p>
+<ul class="simple">
+<li>Используя команду <em class="guilabel">Сохранить</em> (нажмите на клавиатуре <tt class="docutils literal"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">S</span></tt> или используйте пункт меню <em class="menuselection"><span class="accelerator">Ф</span>айл ‣ Со<span class="accelerator">х</span>ранить</em> или нажмите на значок <a class="reference internal" href="_images/lo-save-doc-icon.png"><img alt="lo-save" src="_images/lo-save-doc-icon.png" style="width: 18.15px; height: 17.05px;" /></a> на стандартной панели инструментов). Если вы сохраняете документ с его текущим именем и месторасположением. Команда <em class="guilabel">Сохранить</em> перезапишет последний сохраненный вариант документа. Если документ сохраняется впервые, то будет выведено диалоговое окно сохранения документа, в котором можно будет выбрать название, формат и местоположение документа.</li>
+</ul>
+<ul class="simple">
+<li>Используя команду <em class="guilabel">Сохранить как...</em> (нажмите на клавиатуре <tt class="docutils literal"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">Shift</span> <span class="pre">+</span> <span class="pre">S</span></tt> или используйте пункт меню <em class="menuselection"><span class="accelerator">Ф</span>айл ‣ Сохранить <span class="accelerator">к</span>ак...</em>) если вы хотите создать новый документ из текущего или изменить имя файла и/или формат файла, или сохранить файл в другом месте.</li>
+</ul>
+<p>Используйте защиту документа паролем, если вы хотите ограничить число людей, которые могут открывать, просматривать и редактировать документ, подробнее в разделе <a class="reference internal" href="#id29">Защита паролем</a>.</p>
 <div class="figure align-center" id="ch1-lo-screen-014">
 <a class="reference internal image-reference" href="_images/ch1-lo-screen-014.png"><img alt="Диалог сохранения документа" src="_images/ch1-lo-screen-014.png" style="width: 297.6px; height: 226.0px;" /></a>
 <p class="caption">Диалог сохранения документа</p>
 </div>
-<ol class="arabic simple" start="2">
+<p>Когда открыт диалог сохранения, введите имя файла, выберите желаемый формат файла, выберите нужный каталог (если необходимо), и нажмите кнопку <em class="guilabel">Сохранить</em>.</p>
+<p>Вид открывающегося диалога <em class="guilabel">Сохранить как...</em> зависит от настроек LibreOffice. Смотрите раздел <a class="reference internal" href="#id38">Диалоговые окна «Открыть» и «Сохранить как...»</a> для получения более подробной информации.</p>
+<div class="section" id="id29">
+<h3>Защита паролем<a class="headerlink" href="#id29" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Чтобы ограничить число людей, которые могут открывать и читать документ или открывать и редактировать документ, вы должны использовать защиту документа паролем, для этого:</p>
+<ol class="arabic simple">
+<li>В диалоговом окне <em class="guilabel">Сохранить как...</em> выберите опцию <em class="guilabel">Сохранить с паролем</em> (смотрите рисунок <em class="xref std std-ref">h1-lo-screen-014</em>).</li>
 <li>Нажмите кнопку <em class="guilabel">Сохранить</em>, откроется диалоговое окно <em class="guilabel">Задать пароль</em>.</li>
 </ol>
 <div class="figure align-center" id="ch1-lo-screen-015">
@@ -523,16 +531,66 @@
 <p>Вы можете переименовывать или удалять файлы с жесткого диска в диалогах открытия/сохранения файлов LibreOffice, точно так же, как в файловом менеджере. Выберите файл и нажмите на него правой кнопкой мыши, откроется контекстное меню. Выберите <em class="guilabel">Удалить</em> или <em class="guilabel">Переименовать</em> в зависимости от потребности.</p>
 </div>
 <div class="section" id="id38">
-<h2>Диалоговые окна <em class="guilabel">Открыть</em> и <em class="guilabel">Сохранить как...</em><a class="headerlink" href="#id38" title="Ссылка на этот заголовок">¶</a></h2>
+<h2>Диалоговые окна «Открыть» и «Сохранить как...»<a class="headerlink" href="#id38" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Вы можете выбрать, какие диалоги открытия/сохранения файлов использовать: те, которые есть в самом LibreOffice, или стандартные диалоги вашей операционной системы.</p>
+<p>Для использования диалогов открытия/сохранения файлов встроенных в LibreOffice откройте меню <em class="menuselection">С<span class="accelerator">е</span>рвис ‣ <span class="accelerator">П</span>араметры ‣ LibreOffice ‣ Общие</em> и поставьте флажок на опции <em class="guilabel">Использовать диалоги LibreOffice</em>. Для использования стандартных диалогов системы &#8211; снимите данный флажок.</p>
+<p>Для примера сравните диалоги на изображениях <a class="reference internal" href="#ch1-lo-screen-014"><em>Диалог сохранения документа</em></a> и <a class="reference internal" href="#ch1-lo-screen-017"><em>Стандартный диалог сохранения фалов LibreOffice</em></a>.</p>
+<div class="figure align-center" id="ch1-lo-screen-017">
+<a class="reference internal image-reference" href="_images/ch1-lo-screen-017.png"><img alt="Стандартный диалог сохранения фалов LibreOffice" src="_images/ch1-lo-screen-017.png" style="width: 337.0px; height: 225.5px;" /></a>
+<p class="caption">Стандартный диалог сохранения фалов LibreOffice</p>
+</div>
+<p>Тремя значками в верхнем правом углу диалога открытия/сохранения файлов LibreOffice являются:</p>
+<ul class="simple">
+<li><strong>Подключиться к серверу</strong> <a class="reference internal" href="_images/lo-servers-icon.png"><img alt="lo-servers" src="_images/lo-servers-icon.png" style="width: 74.4px; height: 18.6px;" /></a> – откроется диалоговое окно, позволяющее подключиться к удаленному серверу, если искомый документ находится не на вашем компьютере. Это одна из не самых очевидных функций LibreOffice, она позволяет, в том числе, подключаться к таким сервисам как: Яндекс Диск, Google Drive (Документы) и некоторым другим. Подробнее смотрите <em>Приложение Г</em>.</li>
+</ul>
+<ul class="simple">
+<li><strong>На уровень вверх</strong> <a class="reference internal" href="_images/lo-levels-icon.png"><img alt="lo-levels" src="_images/lo-levels-icon.png" style="width: 17.4px; height: 15.6px;" /></a> – показывает содержимое каталога, расположенного выше в файловой иерархии относительно текущего. Нажмите и удерживайте кнопку мыши на этом значке до появления выпадающего списка всех выше расположенных в иерархии (по отношению к текущему) каталогов. Переместите курсор к нужному каталогу и отпустите кнопку мыши для перехода в него.</li>
+</ul>
+<ul class="simple">
+<li><strong>Создать папку</strong> <a class="reference internal" href="_images/lo-new-folder-icon.png"><img alt="lo-new-folder" src="_images/lo-new-folder-icon.png" style="width: 17.4px; height: 16.2px;" /></a> – создание нового вложенного каталога в текущем каталоге.</li>
+</ul>
+<p>Используйте поле <em class="guilabel">Тип файла</em>, чтобы указать тип файла, который необходимо открыть или формат файла для сохраняемого файла.</p>
 </div>
 <div class="section" id="id39">
 <h2>Использование Навигатора<a class="headerlink" href="#id39" title="Ссылка на этот заголовок">¶</a></h2>
+<p>В <em class="guilabel">Навигаторе</em> LibreOffice отображаются объекты, содержащиеся в документе, разбитые по категориям. Например, в Writer он отображает Заголовки (сделанные с помощью Стилей), Таблицы, Врезки, Комментарии, Изображения, Закладки и иные элементы, как показано на изображении <a class="reference internal" href="#ch1-lo-screen-018"><em>Навигатор в Writer</em></a>.</p>
+<p>В Calc он отображает Листы, Названия диапазонов, Диапазоны базы данных, Изображения, Графические объекты и иные элементы. В Impress и Draw показываются Слайды, Изображения и другие элементы.</p>
+<p>Чтобы открыть <em class="guilabel">Навигатор</em>, нажмите на значок <em class="guilabel">Навигатора</em> <a class="reference internal" href="_images/lo-navigator-icon.png"><img alt="lo-navigator" src="_images/lo-navigator-icon.png" style="width: 19.8px; height: 21.0px;" /></a> на стандартной панели инструментов или нажмите клавишу <tt class="docutils literal"><span class="pre">F5</span></tt> на клавиатуре, или откройте меню <em class="menuselection"><span class="accelerator">В</span>ид ‣ Навига<span class="accelerator">т</span>ор</em>. Также вы можете нажать на область в <em class="guilabel">Строке</em> состояния, показывающую количество страниц, подробнее смотрите раздел <a class="reference internal" href="#id25">Строка состояния</a>.</p>
+<p>Вы можете закрепить <em class="guilabel">Навигатор</em> по обе стороны главного окна программы или оставить его плавающим. нажмите на маркер (<tt class="docutils literal"><span class="pre">+</span></tt> или треугольник) рядом с любой категорией, чтобы отобразить список объектов в этой категории.</p>
+<div class="figure align-center" id="ch1-lo-screen-018">
+<a class="reference internal image-reference" href="_images/ch1-lo-screen-018.png"><img alt="Навигатор в Writer" src="_images/ch1-lo-screen-018.png" style="width: 177.0px; height: 247.8px;" /></a>
+<p class="caption">Навигатор в Writer</p>
+</div>
+<p>Навигатор предоставляет несколько удобных способов перемещения по документу и поиска элементов в нем:</p>
+<ul class="simple">
+<li>Если в категории есть объекты, дважды нажмите левой кнопкой мыши по объекту для перехода к нему в документе.</li>
+<li>Объекты легче искать, если им присваивать при создании узнаваемые имена, а не использовать стандартные имена LibreOffice типа Лист1, Таблица1, Таблица2 и тому подобные. Стандартное имя может не соответствовать фактическому положению объекта в документе.</li>
+<li><em class="guilabel">Навигатор</em> в компонентах LibreOffice имеет разный набор функций. Об этих функциях рассказывается далее в соответствующих темах, посвященных компонентам LibreOffice.</li>
+</ul>
 </div>
 <div class="section" id="id40">
-<h2>Отмена и повтор изменений<a class="headerlink" href="#id40" title="Ссылка на этот заголовок">¶</a></h2>
+<h2>Отмена и возврат изменений<a class="headerlink" href="#id40" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Чтобы отменить самое последнее изменение в документе используйте сочетание клавиш <tt class="docutils literal"><span class="pre">Ctrl+Z</span></tt> или нажмите на значок <em class="guilabel">Отменить</em> <a class="reference internal" href="_images/lo-undo-icon.png"><img alt="lo-undo" src="_images/lo-undo-icon.png" style="width: 30.6px; height: 22.2px;" /></a> на стандартной панели инструментов, или используйте пункт главного меню <em class="menuselection">Правка ‣ Отменить</em>. Нажмите на маленький треугольник справа от значка <em class="guilabel">Отменить</em>, появится список всех изменений, которые можно отменить. Вы можете выбрать несколько изменений и отменить их все одновременно.</p>
+<div class="figure align-center" id="ch1-lo-screen-019">
+<a class="reference internal image-reference" href="_images/ch1-lo-screen-019.png"><img alt="Отмена изменений" src="_images/ch1-lo-screen-019.png" style="width: 150.6px; height: 147.6px;" /></a>
+<p class="caption">Отмена изменений</p>
+</div>
+<p>После отмены изменений вы можете вернуть отмененные изменения. Чтобы вернуть изменения используйте сочетание клавиш <tt class="docutils literal"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">Y</span></tt> или нажмите на значок <em class="guilabel">Вернуть</em> <a class="reference internal" href="_images/lo-redo-icon.png"><img alt="lo-redo" src="_images/lo-redo-icon.png" style="width: 31.8px; height: 19.8px;" /></a>, или используйте пункт главного меню <em class="menuselection"><span class="accelerator">П</span>равка ‣ <span class="accelerator">В</span>ернуть</em>. Так же, как и в <em class="guilabel">Отмене</em>, нажмите на маленький треугольник справа от значка, чтобы получить список изменений, которые могут быть восстановлены.</p>
+<p>Чтобы изменить количество изменений доступных для отмены, откройте в главном меню <em class="menuselection">С<span class="accelerator">е</span>рвис ‣ <span class="accelerator">П</span>араметры ‣ LibreOffice ‣ Память</em>. В секции <em class="guilabel">Отмена</em> увеличьте или уменьшите <em>Количество шагов</em>. Чем больше вы задаете число запоминаемых изменений, тем большее количество оперативной памяти потребуется LibreOffice.</p>
 </div>
 <div class="section" id="id41">
 <h2>Закрытие документа<a class="headerlink" href="#id41" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Если открыт только один документ, перейдите в главном меню в <em class="menuselection"><span class="accelerator">Ф</span>айл ‣ <span class="accelerator">З</span>акрыть</em> или нажмите на <tt class="docutils literal"><span class="pre">х</span></tt> (крестик) справа вверху на главном меню (не путать с заголовком окна). Последний документ будет закрыт, а LibreOffice отобразит стартовый экран.</p>
+<div class="figure align-center" id="ch1-lo-screen-020">
+<a class="reference internal image-reference" href="_images/ch1-lo-screen-020.png"><img alt="Значок ``х`` (крестик), закрывающий документ" src="_images/ch1-lo-screen-020.png" style="width: 438.6px; height: 31.2px;" /></a>
+<p class="caption">Значок <tt class="docutils literal"><span class="pre">х</span></tt> (крестик), закрывающий документ</p>
+</div>
+<p>Если открыто более одного документа, перейдите в главном меню в <em class="menuselection"><span class="accelerator">Ф</span>айл ‣ <span class="accelerator">З</span>акрыть</em> или нажмите на <tt class="docutils literal"><span class="pre">х</span></tt> (крестик) в заголовке окна программы. <tt class="docutils literal"><span class="pre">х</span></tt> (крестик) может располагаться как справа, так и слева от заголовка окна программы в зависимости от настроек вашей операционной системы. Когда останется только один открытый документ, <tt class="docutils literal"><span class="pre">х</span></tt> (крестик) появится в строке главного меню.</p>
+<p>Если документ не был сохранен после внесения последних изменений, будет показано сообщение с предложением сохранить изменения. Выберите, следует ли сохранить или отказаться от изменений.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Не сохранение документа может привести к потере последних изменений или даже всего файла.</p>
+</div>
 </div>
 <div class="section" id="id42">
 <h2>Закрытие LibreOffice<a class="headerlink" href="#id42" title="Ссылка на этот заголовок">¶</a></h2>
