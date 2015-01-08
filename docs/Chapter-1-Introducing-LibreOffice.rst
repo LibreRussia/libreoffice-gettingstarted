@@ -10,6 +10,7 @@
 
    <br />
 
+.. _Chapter-1-Introducing-LibreOffice:
 
 Глава 1 – Введение в LibreOffice
 ================================
