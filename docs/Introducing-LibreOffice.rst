@@ -3,7 +3,6 @@
    :keywords: LibreOffice, Writer, Impress, Calc, Math, Base, Draw, либреоффис
 
 
-
 .. Список автозамен
 
 .. |br| raw:: html

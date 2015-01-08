@@ -25,9 +25,9 @@
 
    preface
    community
-   Chapter-1-Introducing-LibreOffice
-   Chapter-2-Setting-up-LibreOffice
-   math
+   Introducing-LibreOffice
+   Setting-up-LibreOffice
+   Math
    KeyboardShortcuts
 
 
