@@ -27,7 +27,7 @@
    community
    Introducing-LibreOffice
    Setting-up-LibreOffice
-   Math
+   math
    KeyboardShortcuts
 
 
