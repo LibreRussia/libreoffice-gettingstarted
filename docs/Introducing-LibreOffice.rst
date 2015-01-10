@@ -1,5 +1,5 @@
 .. meta::
-   :description: Краткое руководство по LibreOffice 
+   :description: Краткое руководство по LibreOffice: Глава 1 – Введение в LibreOffice
    :keywords: LibreOffice, Writer, Impress, Calc, Math, Base, Draw, либреоффис
 
 

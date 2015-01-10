@@ -1,4 +1,8 @@
 
+.. meta::
+   :description: Краткое руководство по LibreOffice: Приложение А — Сочетания клавиш
+   :keywords: LibreOffice, Writer, Impress, Calc, Math, Base, Draw, либреоффис
+
 .. Принудительный разрыв строк в HTML
 
 .. |br| raw:: html
