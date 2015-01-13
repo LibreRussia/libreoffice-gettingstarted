@@ -52,7 +52,7 @@ Math может быть запущен автономно или вызван �
 
 .. _math-short-001:
 
-.. figure:: _static/math-short-001.png
+.. figure:: _static/chapter9/math-short-001.png
     :scale: 50%
     :align: center
     :alt: Новый документ Math
@@ -70,7 +70,7 @@ Math может быть запущен автономно или вызван �
 
 .. _math-short-002:
 
-.. figure:: _static/math-short-002.png
+.. figure:: _static/chapter9/math-short-002.png
     :scale: 50%
     :align: center
     :alt: Вставка формулы в документ Writer
@@ -120,7 +120,7 @@ ____
 
 .. _math-short-003:
 
-.. figure:: _static/math-short-003.png
+.. figure:: _static/chapter9/chapter9math-short-003.png
     :scale: 60%
     :align: center
     :alt: Выбор категорий символов на боковой панели
@@ -137,7 +137,7 @@ ____
 
 .. _math-short-004:
 
-.. figure:: _static/math-short-004.png
+.. figure:: _static/chapter9/math-short-004.png
     :scale: 60%
     :align: center
     :alt: Выбор символа
@@ -153,7 +153,7 @@ ____
 
 .. _math-short-005:
 
-.. figure:: _static/math-short-005.png
+.. figure:: _static/chapter9/math-short-005.png
     :scale: 50%
     :align: center
     :alt: Результат выбора символа
@@ -164,7 +164,7 @@ ____
 
 .. _math-short-006:
 
-.. figure:: _static/math-short-006.png
+.. figure:: _static/chapter9/math-short-006.png
     :scale: 50%
     :align: center
     :alt: Результат ввода значений
@@ -189,7 +189,7 @@ ____
 
 .. _math-short-007:
 
-.. figure:: _static/math-short-007.png
+.. figure:: _static/chapter9/math-short-007.png
     :scale: 60%
     :align: center
     :alt: Панель Элементы
@@ -203,7 +203,7 @@ ____
 
 .. _math-short-008:
 
-.. figure:: _static/math-short-008.png
+.. figure:: _static/chapter9/math-short-008.png
     :scale: 50%
     :align: center
     :alt: Контекстное меню
@@ -309,7 +309,7 @@ ____
 
 .. _math-short-009:
 
-.. figure:: _static/math-short-009.png
+.. figure:: _static/chapter9/math-short-009.png
     :scale: 60%
     :align: center
     :alt: Каталог символов
@@ -329,7 +329,7 @@ ____
 
 .. _math-short-010:
 
-.. figure:: _static/math-short-010.png
+.. figure:: _static/chapter9/math-short-010.png
     :scale: 60%
     :align: center
     :alt: Окно Элементы
@@ -346,7 +346,7 @@ ____
 
 .. _math-short-011:
 
-.. figure:: _static/math-short-011.png
+.. figure:: _static/chapter9/math-short-011.png
     :scale: 60%
     :align: center
     :alt: Результат
@@ -365,7 +365,7 @@ ____
 
 .. _math-short-012:
 
-.. figure:: _static/math-short-012.png
+.. figure:: _static/chapter9/math-short-012.png
     :scale: 50%
     :align: center
     :alt: Изменение формулы
@@ -453,7 +453,7 @@ Math ничего не знает о порядке операций. Необх
    * - Разметка
      - Результат
    * - ( matrix { a # b ## c # d } )
-     - .. image:: _static/math-short-013.png
+     - .. image:: _static/chapter9/math-short-013.png
 
 
 Math позволяет вводить масштабируемые скобки с помощью добавления команд ``left`` и ``right`` перед открывающейся и закрывающейся скобками соответственно.
@@ -649,7 +649,7 @@ Math не чувствителен к пробелам, т.е. десять пр
 
 .. _math-short-014a:
 
-.. figure:: _static/math-short-014a.png
+.. figure:: _static/chapter9/math-short-014a.png
     :scale: 50%
     :align: center
     :alt: Вставка текста в формулы
@@ -693,7 +693,7 @@ Math не чувствителен к пробелам, т.е. десять пр
 
 .. _math-short-015:
 
-.. figure:: _static/math-short-015.png
+.. figure:: _static/chapter9/math-short-015.png
     :scale: 60%
     :align: center
     :alt: Изменение расстояния между столбцами матрицы
@@ -733,7 +733,7 @@ ____
 
 .. _math-short-016:
 
-.. figure:: _static/math-short-016.png
+.. figure:: _static/chapter9/math-short-016.png
     :scale: 60%
     :align: center
     :alt: Изменение размера (кегля) шрифта
@@ -756,7 +756,7 @@ ____
 
 .. _math-short-017:
 
-.. figure:: _static/math-short-017.png
+.. figure:: _static/chapter9/math-short-017.png
     :scale: 60%
     :align: center
     :alt: Изменение гарнитуры шрифта
@@ -769,7 +769,7 @@ ____
 
 .. _math-short-018:
 
-.. figure:: _static/math-short-018.png
+.. figure:: _static/chapter9/math-short-018.png
     :scale: 60%
     :align: center
     :alt: Изменение гарнитуры шрифта
@@ -789,11 +789,11 @@ ____
 
 .. index:: color
 
-.. |color-font| image:: _static/math-short-019.png 
+.. |color-font| image:: _static/chapter9/math-short-019.png 
 
 Также можно использовать фигурные скобки для группировки отдельных элементов формулы. Например, ``color green {A B C} color cyan D`` дает следующий результат:|color-font2|.
 
-.. |color-font2| image:: _static/math-short-020.png 
+.. |color-font2| image:: _static/chapter9/math-short-020.png 
 
 Задать фон формулы в Math невозможно, так как по правилам математики цвет
 фона формулы всегда прозрачный. Цвет фона всей формулы совпадает с цветом фона документа. В Writer можно использовать свойства объекта (щелкните
@@ -837,7 +837,7 @@ ____
 
 .. _math-short-021:
 
-.. figure:: _static/math-short-021.png
+.. figure:: _static/chapter9/math-short-021.png
     :scale: 60%
     :align: center
     :alt: Вставка перекрестной ссылки на формулу
@@ -871,7 +871,7 @@ ____
 
 .. _math-short-022:
 
-.. figure:: _static/math-short-022.png
+.. figure:: _static/chapter9/math-short-022.png
     :scale: 50%
     :align: center
     :alt: Настройка отступов и интервалов формул
@@ -912,7 +912,7 @@ ____
 
 .. _math-short-023:
 
-.. figure:: _static/math-short-023.png
+.. figure:: _static/chapter9/math-short-023.png
     :scale: 60%
     :align: center
     :alt: Вставка формулы как объекта OLE
@@ -955,7 +955,7 @@ Math может использовать любые символы из дост
 
 .. _math-short-024:
 
-.. figure:: _static/math-short-024.png
+.. figure:: _static/chapter9/math-short-024.png
     :scale: 50%
     :align: center
     :alt: Правка символов
@@ -969,7 +969,7 @@ Math может использовать любые символы из дост
 
 .. _math-short-025:
 
-.. figure:: _static/math-short-025.png
+.. figure:: _static/chapter9/math-short-025.png
     :scale: 60%
     :align: center
     :alt: Диалог символы
@@ -980,7 +980,7 @@ Math может использовать любые символы из дост
 
 .. _math-short-026:
 
-.. figure:: _static/math-short-026.png
+.. figure:: _static/chapter9/math-short-026.png
     :scale: 60%
     :align: center
     :alt: Вставка нового символа
@@ -1003,7 +1003,7 @@ Math может использовать любые символы из дост
 
 .. _math-short-027:
 
-.. figure:: _static/math-short-027.png
+.. figure:: _static/chapter9/math-short-027.png
     :scale: 60%
     :align: center
     :alt: Стили формулы

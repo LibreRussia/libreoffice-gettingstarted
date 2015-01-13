@@ -31,6 +31,7 @@
    Setting-up-LibreOffice
    calc
    math
+   Customizing-LibreOffice
    KeyboardShortcuts
 
 
