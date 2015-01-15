@@ -29,6 +29,7 @@
    community
    Introducing-LibreOffice
    Setting-up-LibreOffice
+   Using-Styles-and-Templates
    calc
    math
    Customizing-LibreOffice
