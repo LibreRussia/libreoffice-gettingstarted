@@ -12,6 +12,7 @@
           * Предисловие
           * Глава 1 – Введение в LibreOffice
           * Глава 2 – Общие параметры LibreOffice
+          * Глава 3 – Использование Стилей и Шаблонов
           * Глава 5 – Табличный процессор Calc
           * Глава 9 – Редактор формул Math
           * Приложение А — Сочетания клавиш
@@ -29,6 +30,7 @@
    community
    Introducing-LibreOffice
    Setting-up-LibreOffice
+   Using-Styles-and-Templates
    calc
    math
    Customizing-LibreOffice
