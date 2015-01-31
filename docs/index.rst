@@ -32,6 +32,7 @@
    Introducing-LibreOffice
    Setting-up-LibreOffice
    Using-Styles-and-Templates
+   writer
    calc
    math
    Customizing-LibreOffice

@@ -9,7 +9,7 @@
    <br />
 
 
-.. _using-styles-and-templates
+.. _using-styles-and-templates:
 
 Глава 3 – Использование Стилей и Шаблонов
 =========================================
