@@ -36,6 +36,7 @@
    writer
    calc
    math
+   Graphics-the-Gallery-and-Fontwork
    Customizing-LibreOffice
    KeyboardShortcuts
 
