@@ -16,6 +16,7 @@
           * Глава 4 – Текстовый процессор Writer
           * Глава 5 – Табличный процессор Calc
           * Глава 9 – Редактор формул Math
+          * Глава 11 – Галерея, Графика и Текстовые эффекты
           * Глава 14 – Дополнительная настройка LibreOffice
           * Приложение А — Сочетания клавиш
           
@@ -36,6 +37,7 @@
    writer
    calc
    math
+   Graphics-the-Gallery-and-Fontwork
    Customizing-LibreOffice
    KeyboardShortcuts
 
