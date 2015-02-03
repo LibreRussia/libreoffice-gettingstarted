@@ -289,6 +289,16 @@ c) Нажмите кнопку *OK* в диалоге *Свойства*, что
 
 Содержимое *Галереи*, предустановленное с LibreOffice, хранится в другом месте. Его изменить нельзя. 
 
+
+.. note:: В `репозитории расширений LibreOffice <http://extensions.libreoffice.org>`_ находится несколько расширений с дополнительным клипартом для галереи. Например:
+
+ * `Галерея клипарта с символами предупреждений об опасности <http://extensions.libreoffice.org/extension-center/gallery-of-danger-signs>`_
+ * `Галерея клипарта в виде пазлов <http://extensions.libreoffice.org/extension-center/gallery-of-puzzle-shapes>`_
+ * `Галерея лицензий Creative Commons <http://extensions.libreoffice.org/extension-center/creative-commons-clipart-gallery>`_
+ 
+ Другие наборы клипарта можно найти в интернете. Также посетите сайт Open Clip Art Library (https://openclipart.org) с коллекцией свободных векторных изображений  или скачайте  `расширение для интеграции с LibreOffice <http://extensions.libreoffice.org/extension-center/openclipart-org-integration>`_
+ 
+
 ---------
 
 Создание сенсорного изображения
