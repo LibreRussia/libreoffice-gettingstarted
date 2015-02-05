@@ -614,11 +614,10 @@ LibreOffice может экспортировать документы в фор
 
     Установка паролей для шифрования PDF
 
-
 .. note:: Также смотрите статьи:
 
- * [LibreOffice: Автоматический экспорт в PDF (Пример работы с макросами без знания языка макросов)](http://librerussia.blogspot.ru/2014/10/libreoffice-libreoffice-basic.html)
- * [LibreOffice: Создание PDF с формами для заполнения](http://librerussia.blogspot.ru/2014/09/libreoffice-pdf.html)
+ * `LibreOffice: Автоматический экспорт в PDF (Пример работы с макросами без знания языка макросов) <http://librerussia.blogspot.ru/2014/10/libreoffice-libreoffice-basic.html>`_
+ * `LibreOffice: Создание PDF с формами для заполнения <http://librerussia.blogspot.ru/2014/09/libreoffice-pdf.html)>`_
  
 -----------
 
