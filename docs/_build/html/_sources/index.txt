@@ -17,6 +17,7 @@
           * Глава 5 – Табличный процессор Calc
           * Глава 9 – Редактор формул Math
           * Глава 11 – Галерея, Графика и Текстовые эффекты
+          * Глава 12 – Создание веб-страниц
           * Глава 14 – Дополнительная настройка LibreOffice
           * Приложение А — Сочетания клавиш
           
@@ -37,6 +38,7 @@
    writer
    calc
    math
+   Printing-Exporting-and-E-mailing
    Graphics-the-Gallery-and-Fontwork
    Creating-Web-Pages
    Customizing-LibreOffice
