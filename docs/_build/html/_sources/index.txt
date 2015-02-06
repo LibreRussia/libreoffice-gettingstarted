@@ -38,6 +38,7 @@
    Using-Styles-and-Templates
    writer
    calc
+   base   
    math
    Printing-Exporting-and-E-mailing
    Graphics-the-Gallery-and-Fontwork
