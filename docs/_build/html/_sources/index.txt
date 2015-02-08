@@ -38,6 +38,7 @@
    Using-Styles-and-Templates
    writer
    calc
+   impress
    base   
    math
    Printing-Exporting-and-E-mailing
