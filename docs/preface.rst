@@ -174,7 +174,26 @@ LibreOffice доступен в операционных системах Linux,
 Кем написано руководство?
 -------------------------
 
-Эта книга написана добровольцами из сообщества LibreOffice. Над руководством работали:
+Эта книга является переводом англоязычного официального руководства Getting Started Guide для LibreOffice 4.2. Также была проведена адаптация текста и иллюстраций для LibreOffice 4.3. 
+
+Авторами Getting Started Guide для LibreOffice 4.2 являются:
+
+* Jean Hollis Weber
+* Peter Schofield
+* Ron Faile Jr.
+* Martin Fox
+* Dan Lewis	
+* David Michel
+* Andrew Pitonyak	
+* Hazel Russman	
+* Jeremy Cartwright
+* John A Smith	
+* Martin Saffron	
+* Laurent Balland-Poirier
+* Bruce Byfield	
+* Reizinger Zoltán
+
+Над переводом, адаптацией и публикацией руководства работали:
 
 * Роман Кузнецов (перевод, адаптация, вычитка)
 * Валерий Гончарук (перевод, адаптация, вычитка)
