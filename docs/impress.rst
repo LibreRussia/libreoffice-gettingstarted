@@ -10,6 +10,8 @@
 
    <br />
 
+.. _impress:
+
 Глава 6 – Программа подготовки презентаций Impress
 ==================================================
 
@@ -1212,3 +1214,4 @@ LibreOffice Impress имеет функцию Консоль презентац�
 
  * `Дистанционное управление презентациями LibreOffice Impress с помощью Android <http://librerussia.blogspot.ru/2014/10/libreoffice-impress-android.html>`_
  * `Часто задаваемые вопросы - LibreOffice Impress <https://wiki.documentfoundation.org/Faq/Impress/ru>`_
+http://librerussia.blogspot.ru/2015/02/libreoffice-impress.html
